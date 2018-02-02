@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    text-align:center;
+}
+header {
+    color: yellow;
+}
+
+p {
+    color: white;
+}
+
+#row1, #row2 {
+    float: left;
+}
+
+
+#spring, #fall{
+    padding-left:200px;
+}
+
+#sp {
+    border-radius:100px 0px 0px 0px;
+}
+#wi {
+    
+}
+

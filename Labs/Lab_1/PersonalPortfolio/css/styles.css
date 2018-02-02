@@ -22,7 +22,7 @@ nav a:hover { /*psuedo class*/
 }
 
 figure, div {
-    float: left;
+    float: center;
 }
 
 #me, #welcomeText {
