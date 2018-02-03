@@ -1,6 +1,7 @@
 body {
     background-color: black;
-    color: gray;
+    color: white;
+    text-align: center;
 }
 
 header, main, nav, footer {
@@ -21,11 +22,9 @@ nav a:hover { /*psuedo class*/
     transition: .9s; /* transition effect */
 }
 
-figure, div {
-    float: center;
-}
-
 #me, #welcomeText {
+    margin: 20px;
+    width: auto;
     float: left;
 }
 
@@ -56,7 +55,7 @@ td strong {
 
 ul {
     text-align: left;
-    padding-left: 200px;
+    padding-left: 30%;
 }
 
 .hobby {
@@ -67,4 +66,8 @@ h1 {
     font-family: 'Pacifico', cursive;
     font-size: 4em;
     margin-bottom: 0px
+}
+
+img {
+    border-radius: 25px;
 }
