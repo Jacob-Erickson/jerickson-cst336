@@ -1,0 +1,80 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+h1, h2 {
+    color: silver;
+    text-shadow: 1px 1px white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+nav { /* Navigation Bar*/
+    display: inline-block; /*Allows buttons to be side by side*/
+    width: 80%; /*Ensures buttons stay more towards the center*/
+    margin: 0; /*Set the bar to the center of the page*/
+}
+
+nav a:not(#current_page):not(#current_link) { /*Styles all buttons but the button leading to the current page*/
+    text-decoration: none; /*Removes dashes leftover from links*/
+    color: navy;
+    font-size: 20px;
+    display: inline; /*Allows buttons to be side by side*/
+}
+
+#current_page { /*Styles the button that leads to the current page*/
+    text-decoration: none;
+    display: inline-block; /*Allows buttons to be side by side*/
+    background-color: white;
+    box-shadow: 3px 3px gray; /*Makes the button look more 3 dimensional*/
+    color: red; 
+    width: 18%; /*Sets the width of the button so that there is space between them"*/
+    padding-top: 3%; /*Makes button taller*/
+    padding-bottom: 3%; /*Makes button taller*/
+    margin-left: 3%; /*Puts space between the buttons*/
+    margin-right: 3%; /*Puts space between the buttons*/
+    border-radius: 10px; /*Rounds the edges of the button*/
+    font-size: 30px;
+}
+
+nav a div:not(#current_page):not(#current_link) { /*Styles all buttons except for the one leading to the current page*/
+    display: inline-block; /*Allows buttons to be side by side*/
+    color: navy;
+    font-size: 20px;
+    background-color: grey;
+    box-shadow: 3px 3px white; /*Makes the button look more 3 dimensional*/
+    width: 10%; /*Sets the width of the buttons so that there is space between them"*/
+    padding: 2%;
+    margin-left: 3%; /*Puts space between the buttons*/
+    margin-right: 3%; /*Puts space between the buttons*/
+    border-radius: 10px; /*Rounds the edges of the button*/
+}
+
+nav div:hover:not(#current_page):not(#current_link) { /*Changes the appearance of buttons when moused over*/
+    display: inline-block; /*Allows buttons to be side by side*/
+    background-color: white;
+    box-shadow: 3px 3px gray; /*Makes the button look more 3 dimensional*/
+    color: red;
+    width: 18%;
+    padding-top: 3%; /*enlarges the button*/
+    padding-bottom: 3%; /*enlarges the button*/
+    margin-left: 3%; /*Puts space between the buttons*/
+    margin-right: 3%; /*Puts space between the buttons*/
+    border-radius: 10px; /*Rounds the edges of the button*/
+    transition: .5s; /*Speed at which the button transitions from it's initial state to this one"*/
+    font-size: 30px;
+}
+
+#alpha {
+    display: inline-block; /*Allows internal elements to be side by side*/
+    
+}
+
+#alpha_img, #alpha_p {
+    display: inline-block;  /*Allows the image and paragraph to be side by side*/
+    width: 40%; /*Allows the the image and paragraph to adjust their size based on the current window size*/
+    vertical-align: middle; /*Aligns the text in the paragraph to the top of the div*/
+    text-align: center; /*Centers the text in the paragraph*/
+}
