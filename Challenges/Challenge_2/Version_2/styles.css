@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+}
+
+header {
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+
+div {
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}

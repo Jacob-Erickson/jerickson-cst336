@@ -1,0 +1,14 @@
+[12-Feb-2018 19:15:47 UTC] PHP Fatal error:  Cannot redeclare displayPoints() (previously declared in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_2/777/index.php:51) in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_2/777/index.php on line 51
+[12-Feb-2018 19:15:47 UTC] PHP Stack trace:
+[12-Feb-2018 19:15:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_2/777/index.php:0
+[12-Feb-2018 19:15:47 UTC] PHP   2. displaySymbol() /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_2/777/index.php:12
+[12-Feb-2018 19:16:44 UTC] PHP Fatal error:  Cannot redeclare displayPoints() (previously declared in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_2/777/index.php:53) in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_2/777/index.php on line 53
+[12-Feb-2018 19:16:44 UTC] PHP Stack trace:
+[12-Feb-2018 19:16:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_2/777/index.php:0
+[12-Feb-2018 19:16:44 UTC] PHP   2. displaySymbol() /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_2/777/index.php:12
+[12-Feb-2018 23:11:23 UTC] PHP Warning:  readfile(win_sound.wav): failed to open stream: No such file or directory in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_2/777/inc/functions.php on line 82
+[12-Feb-2018 23:11:23 UTC] PHP Stack trace:
+[12-Feb-2018 23:11:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_2/777/index.php:0
+[12-Feb-2018 23:11:23 UTC] PHP   2. play() /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_2/777/index.php:20
+[12-Feb-2018 23:11:23 UTC] PHP   3. displayPoints() /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_2/777/inc/functions.php:11
+[12-Feb-2018 23:11:23 UTC] PHP   4. readfile() /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_2/777/inc/functions.php:82
