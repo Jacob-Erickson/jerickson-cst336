@@ -27,5 +27,13 @@ include 'inc/functions.php';
             
         </div>
         
+        <footer>
+            
+            <div id="include">
+                <img src="img/CSUMB_Logo.png" alt="picture of CSUMB logo" />
+            </div>
+        
+        </footer>
+        
     </body>
 </html>
