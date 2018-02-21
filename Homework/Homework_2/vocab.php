@@ -76,7 +76,7 @@ $words = array
             }
         }
         
-        echo "Your Score was: " . ($scores['visual'] . $score['written']);
+        echo "Your Score was: " . ($scores['visual'] + $scores['written']);
         
     }
     
