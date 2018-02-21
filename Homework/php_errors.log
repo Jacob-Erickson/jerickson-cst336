@@ -1,0 +1,45 @@
+[18-Feb-2018 04:17:49 UTC] PHP Parse error:  syntax error, unexpected '$words' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/index.php on line 23
+[21-Feb-2018 05:46:52 UTC] PHP Parse error:  syntax error, unexpected '" value="' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/index.php on line 39
+[21-Feb-2018 05:47:10 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/index.php on line 40
+[21-Feb-2018 06:35:54 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/vocab.php on line 35
+[21-Feb-2018 06:35:54 UTC] PHP Stack trace:
+[21-Feb-2018 06:35:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/index.php:0
+[21-Feb-2018 06:52:11 UTC] PHP Fatal error:  Cannot redeclare start_cards() (previously declared in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/index.php:24) in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/vocab.php on line 33
+[21-Feb-2018 06:52:11 UTC] PHP Stack trace:
+[21-Feb-2018 06:52:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/index.php:0
+[21-Feb-2018 06:54:34 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/vocab.php on line 65
+[21-Feb-2018 06:54:34 UTC] PHP Stack trace:
+[21-Feb-2018 06:54:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/index.php:0
+[21-Feb-2018 06:58:22 UTC] PHP Warning:  Missing argument 1 for start_cards(), called in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/index.php on line 26 and defined in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/vocab.php on line 33
+[21-Feb-2018 06:58:22 UTC] PHP Stack trace:
+[21-Feb-2018 06:58:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/index.php:0
+[21-Feb-2018 06:58:22 UTC] PHP   2. start_cards() /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/index.php:26
+[21-Feb-2018 18:46:18 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/vocab.php on line 68
+[21-Feb-2018 18:46:18 UTC] PHP Stack trace:
+[21-Feb-2018 18:46:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/style_test.php:0
+[21-Feb-2018 18:46:18 UTC] PHP   2. start_quiz() /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/style_test.php:34
+[21-Feb-2018 18:53:40 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/vocab.php on line 67
+[21-Feb-2018 18:53:40 UTC] PHP Stack trace:
+[21-Feb-2018 18:53:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/style_test.php:0
+[21-Feb-2018 18:53:40 UTC] PHP   2. start_quiz() /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/style_test.php:34
+[21-Feb-2018 18:53:40 UTC] PHP   3. rand() /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/vocab.php:67
+[21-Feb-2018 19:00:17 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/vocab.php on line 67
+[21-Feb-2018 19:00:17 UTC] PHP Stack trace:
+[21-Feb-2018 19:00:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/style_test.php:0
+[21-Feb-2018 19:00:17 UTC] PHP   2. start_quiz() /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/style_test.php:34
+[21-Feb-2018 19:00:19 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/vocab.php on line 68
+[21-Feb-2018 19:00:20 UTC] PHP Stack trace:
+[21-Feb-2018 19:00:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/style_test.php:0
+[21-Feb-2018 19:00:20 UTC] PHP   2. start_quiz() /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/style_test.php:34
+[21-Feb-2018 19:09:48 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/vocab.php on line 65
+[21-Feb-2018 19:09:48 UTC] PHP Stack trace:
+[21-Feb-2018 19:09:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/style_test.php:0
+[21-Feb-2018 19:10:07 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/vocab.php on line 65
+[21-Feb-2018 19:10:07 UTC] PHP Stack trace:
+[21-Feb-2018 19:10:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/initial.php:0
+[21-Feb-2018 19:10:21 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/vocab.php on line 65
+[21-Feb-2018 19:10:21 UTC] PHP Stack trace:
+[21-Feb-2018 19:10:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/initial.php:0
+[21-Feb-2018 19:18:15 UTC] PHP Fatal error:  Call to undefined function check_quiz() in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/style_result.php on line 13
+[21-Feb-2018 19:18:15 UTC] PHP Stack trace:
+[21-Feb-2018 19:18:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/style_result.php:0
