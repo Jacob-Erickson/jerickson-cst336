@@ -43,3 +43,6 @@
 [21-Feb-2018 19:18:15 UTC] PHP Fatal error:  Call to undefined function check_quiz() in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/style_result.php on line 13
 [21-Feb-2018 19:18:15 UTC] PHP Stack trace:
 [21-Feb-2018 19:18:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/style_result.php:0
+[21-Feb-2018 22:15:37 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/vocab.php on line 82
+[21-Feb-2018 22:15:37 UTC] PHP Stack trace:
+[21-Feb-2018 22:15:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/style_result.php:0

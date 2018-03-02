@@ -76,7 +76,21 @@ $words = array
             }
         }
         
-        echo "Your Score was: " . ($scores['visual'] + $scores['written']);
+        echo "Your total score was: " . ($scores['visual'] + $scores['written']);
+        echo "<br/ >";
+        
+        if($scores['visual'] > $scores['written'])
+        {
+            echo "You did better with visual flash cards than with written flash cards";
+        }
+        else if($scores['visual'] < $scores['written'])
+        {
+            echo "You did better with written flash cards than with visual flash cards";
+        }
+        else
+        {
+            echo "You did equally well with both visual flash cards and written flash cards";
+        }
         
     }
     
