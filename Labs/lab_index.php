@@ -7,8 +7,8 @@
     </head>
     <body>
         <nav>
-            <a href="Lab_1">Lab #1</a>
-            <a href="Lab_2">Lab #2</a>
+            <a href="Lab_1/PersonalPortfolio/index.html">Lab #1</a>
+            <a href="Lab_2/777/index.php">Lab #2</a>
             <a href="Lab_3">Lab #3</a>
         </nav>
     </body>
