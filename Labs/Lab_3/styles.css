@@ -1,0 +1,47 @@
+body{
+    background-image: url("playingTableImage/playingTable.jpg");
+    color: yellow;
+}
+
+header{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: yellow;
+}
+
+#elapsedTime{
+    color: yellow;
+    position: absolute;
+}
+
+footer{
+    padding-top: 5%;
+    text-align: center;
+    color: white;
+}
+
+div {
+    display: inline-block;
+    width: 80%;
+    margin-left: 24%;
+    margin-right: 24%;
+    width: 80%;
+    vertical-align: middle;
+    height: 20%;
+    padding: 2%;
+}
+
+div strong {
+    vertical-align: middle;
+    margin-bottom: 20%;
+    margin-top: 20%;
+}
+
+#profile {
+    width: 20%;
+}
+
+#logo{
+    border-radius: 10px;
+    border-color: yellow;
+}
