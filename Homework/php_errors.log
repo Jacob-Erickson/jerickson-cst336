@@ -46,3 +46,15 @@
 [21-Feb-2018 22:15:37 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/vocab.php on line 82
 [21-Feb-2018 22:15:37 UTC] PHP Stack trace:
 [21-Feb-2018 22:15:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_2/style_result.php:0
+[09-Mar-2018 18:59:58 UTC] PHP Parse error:  syntax error, unexpected '$value' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_3/index.php on line 38
+[09-Mar-2018 19:00:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_3/index.php on line 37
+[09-Mar-2018 19:00:39 UTC] PHP Stack trace:
+[09-Mar-2018 19:00:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_3/index.php:0
+[12-Mar-2018 19:44:24 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_3/index.php on line 50
+[14-Mar-2018 05:06:48 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_3/index.php on line 177
+[14-Mar-2018 05:10:01 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_3/index.php on line 215
+[14-Mar-2018 05:35:19 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_3/index.php on line 224
+[14-Mar-2018 05:36:12 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_3/index.php on line 224
+[14-Mar-2018 05:44:46 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_3/index.php on line 224
+[14-Mar-2018 05:59:42 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_3/index.php on line 231
+[14-Mar-2018 05:59:46 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/jerickson-cst336/Homework/Homework_3/index.php on line 231

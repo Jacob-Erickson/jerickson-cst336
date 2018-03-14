@@ -1,0 +1,89 @@
+body {
+    text-align: center;
+    background-color: silver;
+}
+
+.error {
+    color: red;
+}
+
+#demographics {
+    display: inline-block;
+    background-color: lavender;
+    border: solid;
+    border-color: black;
+    width: 60%;
+    margin-left: 19%;
+    margin-right: 19%;
+}
+
+#demo_button {
+    padding: 10%;
+    vertical-align: middle;
+    margin: 1%;
+}
+
+#results {
+    background-color: lavender;
+    border: solid;
+    border-color: black;
+}
+
+fieldset {
+    display: inline;
+    vertical-align: top;
+    width: 24%;
+    margin: 2%;
+    float: left;
+}
+
+#available {
+    display: inline;
+    vertical-align: top;
+    width: 20%;
+    margin: 2%;
+}
+
+#navigation {
+    display: inline-block;
+    width: 80%;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+#home {
+    display: inline;
+}
+
+#home_link div {
+    display: inline;
+    color: black;
+    padding: 1%;
+    background-color: rgb(225, 225, 225);
+    border-style: ridge;
+}
+
+#previous {
+    float: left;
+}
+
+#next {
+    float: right;
+}
+
+button {
+    border-style: ridge;
+    border-color: black;
+    padding: 5%;
+}
+
+#current {
+    max-width: 80%;
+}
+
+#include {
+    background-color: white;
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+}
