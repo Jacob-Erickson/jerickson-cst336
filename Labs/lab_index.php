@@ -3,14 +3,22 @@
     <head>
         <meta charset="utf-8" />
         <title> Labs </title>
-        <!--<link href="css/styles.css" rel="stylesheet" type="text/css" />-->
+        <link href="styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <nav>
-            <a href="Lab_1/PersonalPortfolio/index.html">Lab #1</a>
-            <a href="Lab_2/777/index.php">Lab #2</a>
-            <a href="Lab_3/index.php">Lab #3</a>
-            <a href="Lab_4/Slider/index.php">Lab #4</a>
-        </nav>
+        
+        <h1>Lab Assignments</h1>
+        
+        <table>
+            <tr>
+                <td><a href="Lab_1/PersonalPortfolio/index.html">Lab #1: <br /> Personal Portfolio</a></td>
+                <td><a href="Lab_2/777/index.php">Lab #2: <br /> Slot Machine Game</a></td>
+                <td><a href="Lab_3/index.php">Lab #3: <br /> Silver Jack Game</a></td>
+            </tr>
+            <tr>
+                <td><a href="Lab_4/Slider/index.php">Lab #4: <br /> Image Searcher</a></td>
+            </tr>
+        </table>
+        
     </body>
 </html>

@@ -3,14 +3,20 @@
     <head>
         <meta charset="utf-8" />
         <title> Jacob Erickson's Repository </title>
-        <!--<link href="css/styles.css" rel="stylesheet" type="text/css" />-->
+        <link href="styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <nav>
-            <a href="Challenges/challenges_index.php">Challenges</a>
-            <a href="Homework/homework_index.php">Homework</a>
-            <a href="Labs/lab_index.php">Labs</a>
-            <a href="Practice/randomColor.php">Practice</a>
-        </nav>
+        
+        <h1>Assignment Directory</h1>
+        
+        <table>
+            <tr>
+                <td><a href="Challenges/challenges_index.php">Challenges</a></td>
+                <td><a href="Homework/homework_index.php">Homework</a></td>
+                <td><a href="Labs/lab_index.php">Labs</a></td>
+                <td><a href="Practice/randomColor.php">Practice</a></td>
+            </tr>
+        </table>
+        
     </body>
 </html>
