@@ -121,7 +121,7 @@
         {
             foreach($_SESSION['cart'] as $item)
             {
-                $quantity += $item['quantity'];
+                $quantity += 1;
             }
         }
         
