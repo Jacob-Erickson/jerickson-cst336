@@ -17,7 +17,7 @@
             </tr>
             <tr>
                 <td><a href="Lab_4/Slider/index.php">Lab #4: <br /> Image Searcher </a></td>
-                <td><a href="Lab_5/index.php">Lab #5: <br /> Shopping Cart </a></td>
+                <td><a href="Lab_5/scart/index.php">Lab #5: <br /> Shopping Cart </a></td>
             </tr>
         </table>
         
