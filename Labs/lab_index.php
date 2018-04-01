@@ -18,6 +18,7 @@
             <tr>
                 <td><a href="Lab_4/Slider/index.php">Lab #4: <br /> Image Searcher </a></td>
                 <td><a href="Lab_5/scart/index.php">Lab #5: <br /> Shopping Cart </a></td>
+                <td><a href="Lab_6/index.php">Lab #6: <br /> Ottermart </a></td>
             </tr>
         </table>
         
