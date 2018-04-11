@@ -16,6 +16,16 @@
                 <td><a href="Labs/lab_index.php">Labs</a></td>
                 <td><a href="Practice/randomColor.php">Practice</a></td>
             </tr>
+            <tr>
+                <td>
+                    <a href="/team_project/index.php">Team Project</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Final Project
+                </td>
+            </tr>
         </table>
         
     </body>
