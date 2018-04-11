@@ -5,7 +5,7 @@
     include "shoppingCart.php";
     include "functions.php";
     
-    if(!isset($_SESSION['shoppingCart'])){
+    if(!isset($_SESSION['shoppingCart']) || isset($_GET['empty_cart'])){
         $_SESSION['shoppingCart'] = array();
     }
     
@@ -186,6 +186,27 @@
                 
                 <?php
                 
+                    if(empty($_SESSION['shoppingCart']))
+                    {
+                        echo "<h3>";
+                        echo "The shopping cart is empty";
+                        echo "</h3>";
+                    }
+                    else
+                    {
+                ?>
+                
+                <form>
+                    <input type="hidden" name="empty_cart" value="true"/>
+                    <input type="submit" value="Empty Cart"/>
+                </form>
+                
+                <?php
+                
+                    }
+                    displayCart();
+                
+                    /*
                     foreach ($_SESSION['shoppingCart'] as $item)
                     {
                         foreach ($everything as $value)
@@ -197,6 +218,9 @@
                             }
                         }
                     }
+                    */
+                    
+                    
                 
                 ?>
                 

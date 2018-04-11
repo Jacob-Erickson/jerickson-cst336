@@ -1,9 +1,8 @@
 <?php
 
-    function addend(&$code)
+    function addend(&$code, $check)
     {
-        $compare = substr($code, (strlen($code) - 5), strlen($code));
-        if($compare != "ERE ")
+        if($check)
         {
             $code .= " AND ";
         }
@@ -16,6 +15,8 @@
             $sql = "SELECT * FROM event NATURAL JOIN package NATURAL JOIN activity NATURAL JOIN lodge NATURAL JOIN category WHERE ";
             
             $all = true;
+            
+            $check = false;
             
             if(isset($_GET['minDays']) && $_GET['minDays'] != "")
             {
@@ -32,18 +33,19 @@
                 {
                     $sql .= ">= " . $_GET['minDays'];
                 }
+                $check = true;
             }
             else if(isset($_GET['maxDays']) && $_GET['maxDays'] != "")
             {
                 $all = false;
-                addend($sql);
                 $sql .= "event_end_date - event_start_date <= " . $_GET['maxDays'];
+                $check = true;
             }
             
-            if(isset($_GET['minPrice']))
+            if(isset($_GET['minPrice']) && $_GET['minPrice'] != "")
             {
                 $all = false;
-                addend($sql);
+                addend($sql, $check);
                 $sql .= "price_per_person ";
                 if(!empty($_GET['maxPrice']))
                 {
@@ -56,18 +58,20 @@
                 {
                     $sql .= ">= " . $_GET['minPrice'];
                 }
+                $check = true;
             }
-            else if(isset($_GET['maxPrice']))
+            else if(isset($_GET['maxPrice']) && $_GET['maxPrice'] != "")
             {
                 $all = false;
-                addend($sql);
+                addend($sql, $check);
                 $sql .= "price_per_person <= " . $_GET['maxPrice'];
+                $check = true;
             }
             
             if(isset($_GET['activity']) && $_GET['activity'] != "")
             {
                 $all = false;
-                addend($sql);
+                addend($sql, $check);
                 $sql .= "category_name LIKE \"%" . str_replace("+", " ", $_GET['activity']) . "%\"";
             }
             
@@ -111,27 +115,41 @@
                 $stmt = $vacation_master_db->prepare($sql);
                 $stmt->execute($namedParameters);
                 $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
+                echo "<h1>";
+                echo "Here are your results: ";
+                echo "</h1>";
                 echo "<table>";
                 
-                foreach ($records as $record)
+                
+                if(empty($records))
                 {
-                    echo "<tr>
-                    <td>Starts:<br />".$record["event_start_date"]."</td>
-                    <td>Ends:<br />".$record["event_end_date"]."</td>
-                    <td>$".$record["price_per_person"]."</td>
-                    <td>".$record["activity_name"]."<br />(" . $record['event_subname'].")</td>
-                    <td>".$record["activity_description"]."</td>
-                    <td>".$record["package_name"]."</td>
-                    <td>".$record["package_description"]."</td>
-                    <td>
-                    <form>
-                    <input type='hidden' name='add' value='".$record['event_id']."'/>
-                    <input type='submit' class='btn btn-success btn-xlarge' value = 'Add to cart'/>
-                    </form>
-                    </td>
-                    </tr> ";
+                    echo "<h2> Sorry there was no entries found for your criteria </h2>";
                 }
-                echo "</table>";
+                
+                else
+                {
+                    echo "<table>";
+                    foreach ($records as $record)
+                    {
+                        echo "<tr>
+                        <td>Starts:<br />".$record["event_start_date"]."</td>
+                        <td>Ends:<br />".$record["event_end_date"]."</td>
+                        <td>$".$record["price_per_person"]."</td>
+                        <td>".$record["activity_name"]."<br />(" . $record['event_subname'].")</td>
+                        <td>".$record["activity_description"]."</td>
+                        <td>".$record["package_name"]."</td>
+                        <td>".$record["package_description"]."</td>
+                        <td>
+                        <form>
+                        <input type='hidden' name='add' value='".$record['event_id']."'/>
+                        <input type='submit' class='btn btn-success btn-xlarge' value = 'Add to cart'/>
+                        </form>
+                        </td>
+                        </tr> ";
+                    }
+                    echo "</table>";
+                    
+                }
             }
        }
 ?>
