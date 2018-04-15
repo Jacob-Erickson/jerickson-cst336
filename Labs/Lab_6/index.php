@@ -2,6 +2,11 @@
 
     function getDatabaseConnection($dbName) 
     {
+        $host = "localhost";
+        $username = "web_user";
+        $password = "s3cr3t";
+        $dbname = $dbName;
+        
         //checks whether the URL contains "herokuapp" (using Heroku)
         if(strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
            $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
@@ -53,7 +58,7 @@
         if(isset($_GET['search_term']) && ($_GET['search_term'] != "none") && ($_GET['search_term'] != ""))
         {
             addend($code);
-            $code .= "productName LIKE \"%" . $_GET['search_term'] . "%\" AND ";
+            $code .= "productName LIKE \"%" . $_GET['search_term'] . "%\" OR ";
             $code .= "productDescription LIKE \"%" . $_GET['search_term'] . "%\"";
         }
         
@@ -120,15 +125,12 @@
                 echo "<strong>Price: </strong><br />$";
                 echo $value['price'];
                 echo "</td>";
-                if(isset($_GET['order_by']))
+                if(isset($_GET['display_images']))
                 {
                     echo "<td>";
-                    echo $value['display_images'];
+                    echo "<img src='" . $value['productImage'] . "' />";
                     echo "</td>";
                 }
-                echo "<td>";
-                echo "<img src='" . $value['productImage'] . "' />";
-                echo "</td>";
                 echo "</tr>";
             }
             

@@ -561,3 +561,14 @@ Stack trace:
   thrown in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_6/index.php on line 108
 [01-Apr-2018 03:58:22 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_6/index.php on line 120
 [01-Apr-2018 04:17:40 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_6/index.php on line 224
+[15-Apr-2018 04:23:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/loginProcess.php:37
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/loginProcess.php(37): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/loginProcess.php on line 37
+[15-Apr-2018 05:19:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_6/index.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_6/index.php(14): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_6/index.php(237): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_6/index.php on line 14
