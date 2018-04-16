@@ -15,6 +15,11 @@
     
     function getDatabaseConnection($dbName) 
     {
+        $host = "localhost";
+        $username = "web_user"; //make sure to change before pushing web_user, s3cr3t
+        $password = "s3cr3t";
+        $dbname = $dbName;
+        
         //checks whether the URL contains "herokuapp" (using Heroku)
         if(strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
            $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
@@ -22,12 +27,6 @@
            $dbname = substr($url["path"], 1);
            $username = $url["user"];
            $password = $url["pass"];
-        }
-        else
-        {
-            $host = "localhost";
-            $username = "web_user"; //make sure to change before pushing web_user, s3cr3t
-            $password = "s3cr3t";
         }
         
         $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
@@ -165,8 +164,8 @@
                        <div class ="panel panel-primary">
                         <div class="panel-heading"><h4>Sort by:</h4></div>
                     </div>
-                        Price: <input type = "radio" name = "Price" value = "Price"> 
-                        Date: <input type = "radio" name = "Date" value = "Date">
+                        Price: <input type = "radio" name = "sort" value = "Price"> 
+                        Date: <input type = "radio" name = "sort" value = "Date">
                 </div>
                         
                         <div class ="panel panel-primary"><h4>Generate your results:</h4></div>
