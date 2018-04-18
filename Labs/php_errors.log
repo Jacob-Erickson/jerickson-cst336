@@ -1,0 +1,89 @@
+[16-Apr-2018 21:58:44 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/add.php on line 17
+[16-Apr-2018 22:01:47 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/index.php on line 23
+[17-Apr-2018 03:25:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'add) VALUES (true)' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php(38): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/add.php(74): runCode('INSERT INTO om_...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php on line 38
+[17-Apr-2018 03:25:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'add) VALUES (true)' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php(38): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/add.php(74): runCode('INSERT INTO om_...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php on line 38
+[17-Apr-2018 03:26:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'add) VALUES (true)' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php(38): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/add.php(74): runCode('INSERT INTO om_...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php on line 38
+[17-Apr-2018 03:26:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'add) VALUES (true)' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php(38): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/add.php(74): runCode('INSERT INTO om_...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php on line 38
+[17-Apr-2018 03:26:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'add) VALUES (true)' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php(38): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/add.php(74): runCode('INSERT INTO om_...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php on line 38
+[17-Apr-2018 03:26:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'add) VALUES (true)' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php(38): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/add.php(74): runCode('INSERT INTO om_...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php on line 38
+[17-Apr-2018 03:27:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'add) VALUES (true)' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php(38): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/add.php(74): runCode('INSERT INTO om_...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php on line 38
+[17-Apr-2018 03:37:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php(38): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/add.php(76): runCode('INSERT INTO om_...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php on line 38
+[17-Apr-2018 03:37:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php(38): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/add.php(78): runCode('INSERT INTO om_...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php on line 38
+[17-Apr-2018 03:38:06 UTC] PHP Parse error:  syntax error, unexpected 'runCode' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/add.php on line 80
+[17-Apr-2018 03:38:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php(38): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/add.php(80): runCode('INSERT INTO om_...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php on line 38
+[17-Apr-2018 03:39:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php(38): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/add.php(83): runCode('INSERT INTO om_...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php on line 38
+[17-Apr-2018 03:39:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php(38): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/add.php(83): runCode('INSERT INTO om_...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php on line 38
+[17-Apr-2018 03:40:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') VALUES (6,'dog toy',)' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php(38): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/add.php(84): runCode('INSERT INTO om_...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php on line 38
+[17-Apr-2018 03:43:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php(38): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/add.php(81): runCode('INSERT INTO om_...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/functions.php on line 38
+[17-Apr-2018 04:22:23 UTC] PHP Parse error:  syntax error, unexpected '"' />"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/edit.php on line 54
+[17-Apr-2018 04:23:01 UTC] PHP Parse error:  syntax error, unexpected '"' />"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/jerickson-cst336/Labs/Lab_7/edit.php on line 60

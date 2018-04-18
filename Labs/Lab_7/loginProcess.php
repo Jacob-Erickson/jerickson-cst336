@@ -17,20 +17,21 @@
     $stmt->execute();
     $record = $stmt->fetch(PDO::FETCH_ASSOC);
     
+    seedHead();
+    
+    echo "<main>";
+    
     if (empty($record))
     {
-        echo "Wrong username and/or password";
+        seedNav();
+        echo "<h1 style='color: red;'>Wrong username and/or password</h1>";
     }
     else
     {
         $_SESSION['user'] = $record['username'];
-        seedHead();
-        
         seedNav();
-        
-        echo "Welcome " . $record['firstName'] . ", " . $record['lastName'];
+        echo "<h1>Welcome " . $record['firstName'] . ", " . $record['lastName'] . "</h1>";
         echo "<br />";
-        
     }
-
+    echo "</main>";
 ?>

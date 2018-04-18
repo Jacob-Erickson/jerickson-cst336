@@ -44,6 +44,9 @@
             <tr>
                 <td><a href="Lab_6/index.php">Lab #6: <br /> Ottermart </a></td>
             </tr>
+            <tr>
+                <td><a href="Lab_7/index.php">Lab #7: <br /> Ottermart - Administration </a></td>
+            </tr>
         </table>
         
     </body>
