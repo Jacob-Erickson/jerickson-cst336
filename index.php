@@ -47,6 +47,9 @@
             <tr>
                 <td><a href="Labs/Lab_7/index.php">Lab #7: <br /> Ottermart - Administration </a></td>
             </tr>
+            <tr>
+                <td><a href="Labs/Lab_8/hangman/index.php">Lab #8: <br /> Hangman Game - Javascript Version </a></td>
+            </tr>
         </table>
         
     </body>
