@@ -37,6 +37,7 @@
             </tr>
             <tr>
                 <td><a href="Labs/Lab_4/Slider/index.php">Lab #4: <br /> Image Searcher </a></td>
+                <td><a href="Homework/Homework_4/rps/index.html">Homework #4: <br /> Rock, Paper, Scissors</a></td>
             </tr>
             <tr>
                 <td><a href="Labs/Lab_5/scart/index.php">Lab #5: <br /> Shopping Cart </a></td>
