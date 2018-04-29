@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>AJAX: Sign Up Page</title>
+        
+        <style type="text/css">
+            @import url("styles.css");
+        </style>
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+        <script>
+        
+            function hideAllBoxes()
+            {
+                $("#firstNameBox").css("border-style", "hidden");
+                $("#lastNameBox").css("border-style", "hidden");
+                $("#emailBox").css("border-style", "hidden");
+                $("#phoneBox").css("border-style", "hidden");
+                $("#zipCodeBox").css("border-style", "hidden");
+                $("#stateBox").css("border-style", "hidden");
+                $("#countyBox").css("border-style", "hidden");
+                $("#usernameBox").css("border-style", "hidden");
+                $("#passwordBox").css("border-style", "hidden");
+            }
+        
+            function validateForm() {
+                
+                check = true;
+                
+                hideAllBoxes();
+                
+                if(($("#initPassword").val().length == 0) || ($("#initPassword").val() != $("#checkPassword").val()))
+                {
+                    $("#passwordError").html(" *password fields don't match");
+                    $("#passwordError2").html(" *password fields don't match");
+                    $("#passwordBox").css("border-style", "solid");
+                    check = false;
+                }
+                else
+                {
+                    $("#passwordError").html("");
+                    $("#passwordError2").html("");
+                }
+                
+                if($("#firstName").val().length == 0)
+                {
+                    $("#firstNameError").html(" *must input a first name");
+                    $("#firstNameBox").css("border-style", "solid");
+                    check = false;
+                }
+                else
+                {
+                    $("#firstNameError").html("");
+                }
+                
+                if($("#lastName").val().length == 0)
+                {
+                    $("#lastNameError").html(" *must input a last name");
+                    $("#lastNameBox").css("border-style", "solid");
+                    check = false;
+                }
+                else
+                {
+                    $("#lastNameError").html("");
+                }
+                
+                if($("#email").val().length == 0)
+                {
+                    $("#emailError").html(" *must input an email address");
+                    $("#emailBox").css("border-style", "solid");
+                    check = false;
+                }
+                else
+                {
+                    $("#emailError").html("");
+                }
+                
+                if($("#phone").val().length == 0)
+                {
+                    $("#phoneError").html(" *must input a phone number");
+                    $("#phoneBox").css("border-style", "solid");
+                    check = false;
+                }
+                else
+                {
+                    $("#phoneError").html("");
+                }
+                
+                if($("#cityError").html().length > 0)
+                {
+                    $("#cityError").html(" *you must enter a valid zip code");
+                    $("#zipCodeBox").css("border-style", "solid");
+                    check = false;
+                }
+                else
+                {
+                    $("#cityError").html("");
+                }
+                    
+                if($("#stateError").html().length > 0)
+                {
+                    $("#stateError").html(" *you must select a state");
+                    $("#stateBox").css("border-style", "solid");
+                    check = false;
+                }
+                else
+                {
+                    $("#stateError").html("");
+                }
+                
+                if($("#countyError").html().length > 0)
+                {
+                    $("#countyError").html(" *you must select a county after selecting a state");
+                    $("#countyBox").css("border-style", "solid");
+                    check = false;
+                }
+                else
+                {
+                    $("#countyError").html("");
+                }
+                
+                if($("#usernameError").html().length > 0)
+                {
+                    $("#usernameError").html(" *usernames can't be in use and is no more than 8 characters long");
+                    $("#usernameBox").css("border-style", "solid");
+                    check = false;
+                }
+                else
+                {
+                    $("#usernameError").html("");
+                }
+                
+                return check;
+           
+            }
+            
+        </script>
+        
+        <script>
+        
+            $(document).ready( function() {
+                
+                //Events
+                $("#zipCode").change( function(){ //start zipCode
+                    
+                    //start ajax
+                    $.ajax({
+                        type: "GET",
+                        url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+                        dataType: "JSON",
+                        data: { "zip": $("#zipCode").val() },
+                        success: function(data,status) {
+                            
+                            if(!data)
+                            {
+                                $("#cityError").html(" *Invalid Zip Code");
+                                $("#city").html("");
+                                $("#lat").html("");
+                                $("#lon").html("");
+                            }
+                            else
+                            {
+                                $("#cityError").html("");
+                                $("#city").html(data.city);
+                                $("#lat").html(data.latitude);
+                                $("#lon").html(data.longitude);
+                            }
+                        
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                        //alert(status);
+                        }
+                        
+                    });//end ajax
+                    
+                });//end zipCode
+                
+                $("#state").change( function(){ //start state
+                    
+                    //start ajax
+                    $.ajax({
+                        type: "GET",
+                        url: "http://itcdland.csumb.edu/~milara/ajax/countyList.php",
+                        dataType: "JSON",
+                        data: { "state": $("#state").val() },
+                        success: function(data,status) {
+                            
+                            if($("#state").val() != "")
+                            {
+                                $("#stateError").html("");
+                                $("#county").html("<option value=''>Select One</option>");
+                                for(var i = 0; i < data.length; i++)
+                                {
+                                    $("#county").append("<option>" + data[i].county + "</option>");
+                                }
+                            }
+                            else
+                            {
+                                $("#stateError").html(" *");
+                                $("#county").html("");
+                            }
+                        
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                        //alert(status);
+                        }
+                        
+                    });//end ajax
+                    
+                });//end state
+                
+                $("#county").change( function(){ //start state
+                    
+                    //start ajax
+                    $.ajax({
+                        type: "GET",
+                        url: "http://itcdland.csumb.edu/~milara/ajax/countyList.php",
+                        dataType: "JSON",
+                        data: { "state": $("#county").val() },
+                        success: function(data,status) {
+                            
+                            if($("#county").val() != "")
+                            {
+                                $("#countyError").html("");
+                            }
+                            else
+                            {
+                                $("#countyError").html(" *");
+                            }
+                        
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                        //alert(status);
+                        }
+                        
+                    });//end ajax
+                    
+                });//end state
+                
+                $("#username").change( function(){ //start username
+                
+                    $.ajax({
+                        type: "GET",
+                        url: "checkUsernameAPI.php",
+                        dataType: "JSON",
+                        data: { "username": $("#username").val() },
+                        success: function(data,status) {
+                            
+                            if(($("#username").val().length > 0) && (!data) && ($("#username").val().length <= 8))
+                            {
+                                $("#usernameError").html("");
+                            }
+                            else if($("#username").val() == "")
+                            {
+                                $("#usernameError").html(" *");
+                            }
+                            else if($("#username").val().length > 8)
+                            {
+                                $("#usernameError").html(" *usernames can be no longer than 8 characters");
+                            }
+                            else
+                            {
+                                $("#usernameError").html(" *that username is already taken");
+                            }
+                        
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                        //alert(status);
+                        }
+                        
+                    });//end ajax
+                
+                });//end username
+                
+                
+            });
+            
+        </script>
+
+    </head>
+
+    <body>
+    
+       <h1> Sign Up Form </h1>
+    
+        <form onsubmit="return validateForm()">
+            <fieldset>
+               <legend>Sign Up</legend>
+                <div id="firstNameBox" class="errorBox">
+                <span class="label">First Name:</span><input type="text" id="firstName"><span id="firstNameError" class="errorMsg"> *</span><br> 
+                </div>
+                
+                <div id="lastNameBox" class="errorBox">
+                <span class="label">Last Name:</span><input type="text" id="lastName"><span id="lastNameError" class="errorMsg"> *</span><br> 
+                </div>
+                
+                <div id="emailBox" class="errorBox">
+                <span class="label">Email:</span><input type="text" id="email"><span id="emailError" class="errorMsg"> *</span><br> 
+                </div>
+                
+                <div id="phoneBox" class="errorBox">
+                <span class="label">Phone Number:</span><input type="text" id="phone"><span id="phoneError" class="errorMsg"> *</span><br><br>
+                </div>
+                
+                <div id="zipCodeBox" class="errorBox">
+                <span class="label">Zip Code:</span><input type="text" id="zipCode"><span id="cityError" class="errorMsg"> *</span><br>
+                <span class="label">City:</span><span id="city" class="filler"></span>
+                <br>
+                <span class="label">Latitude:</span><span id="lat" class="filler"></span>
+                <br>
+                <span class="label">Longitude:</span><span id="lon" class="filler"></span>
+                
+                <br><br>
+                </div>
+                
+                <div id="stateBox" class="errorBox">
+                <span class="label">State:</span>
+                <select id="state">
+                    <option value="">Select One</option>
+                    <option value="ca"> California</option>
+                    <option value="ny"> New York</option>
+                    <option value="tx"> Texas</option>
+                    <option value="va"> Virginia</option>
+                </select><span id="stateError" class="errorMsg"> *</span><br />
+                
+                <div id="countyBox" class="errorBox">
+                <span class="label">Select a County:</span><select id="county"></select><span id="countyError" class="errorMsg"> *</span><br>
+                </div>
+                
+                </div>
+                
+                
+                <div id="usernameBox" class="errorBox">
+                <span class="label">Desired Username:</span><input type="text" id="username"><span id="usernameError" class="errorMsg"> *</span><br>
+                </div>
+                
+                
+                <div id="passwordBox" class="errorBox">
+                <span class="label">Password:</span><input type="password" id="initPassword"><span id="passwordError" class="errorMsg"> *</span><br><br />
+                
+                <span class="label">Type Password Again:</span><input type="password" id="checkPassword"><span id="passwordError2" class="errorMsg"> *</span><br>
+                </div>
+                
+                <input type="submit" value="Sign up!" id="submit">
+                
+                <br />
+                
+                <span id="requiredPrompt" class="errorMsg"> *Required Field</span>
+                
+            </fieldset>
+        </form>
+        
+    
+    </body>
+</html>

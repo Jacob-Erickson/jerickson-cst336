@@ -1,0 +1,61 @@
+.errorMsg
+{
+    color: red;
+    float: right;
+}
+.errorBox
+{
+    border-style: hidden;
+    border-color: red;
+}
+body
+{
+    float: left;
+}
+div
+{
+    padding: 5%;
+    margin: 5%;
+}
+span:not(#requiredPrompt)
+{
+    width: 20%;
+}
+form
+{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+h1
+{
+    text-align: center;
+}
+#requiredPrompt
+{
+    float: left;
+}
+body
+{
+    width: 100%;
+}
+input:not(#submit), select
+{
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.label
+{
+    width: 30%;
+    padding: 0px;
+    float: left;
+}
+.filler
+{
+    max-width: 70%;
+}
+#submit
+{
+    margin-left: 40%;
+}
