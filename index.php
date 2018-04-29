@@ -51,6 +51,9 @@
             <tr>
                 <td><a href="Labs/Lab_8/hangman/index.html">Lab #8: <br /> Hangman Game - Javascript Version </a></td>
             </tr>
+            <tr>
+                <td><a href="Labs/Lab_9/signup-1.html">Lab #9: <br /> Sign Up Page </a></td>
+            </tr>
         </table>
         
     </body>
