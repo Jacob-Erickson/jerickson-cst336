@@ -1,0 +1,607 @@
+[01-May-2018 01:46:18 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 67
+[01-May-2018 01:46:18 UTC] PHP Stack trace:
+[01-May-2018 01:46:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[01-May-2018 01:47:03 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 67
+[01-May-2018 01:47:03 UTC] PHP Stack trace:
+[01-May-2018 01:47:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[01-May-2018 01:48:42 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 67
+[01-May-2018 01:48:42 UTC] PHP Stack trace:
+[01-May-2018 01:48:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[01-May-2018 01:49:18 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 67
+[01-May-2018 01:49:18 UTC] PHP Stack trace:
+[01-May-2018 01:49:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[01-May-2018 01:49:35 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 67
+[01-May-2018 01:49:35 UTC] PHP Stack trace:
+[01-May-2018 01:49:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[01-May-2018 01:50:10 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 67
+[01-May-2018 01:50:10 UTC] PHP Stack trace:
+[01-May-2018 01:50:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[01-May-2018 01:56:27 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 67
+[01-May-2018 01:56:27 UTC] PHP Stack trace:
+[01-May-2018 01:56:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[01-May-2018 02:00:23 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 67
+[01-May-2018 02:00:23 UTC] PHP Stack trace:
+[01-May-2018 02:00:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[01-May-2018 02:00:29 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 67
+[01-May-2018 02:00:29 UTC] PHP Stack trace:
+[01-May-2018 02:00:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[01-May-2018 02:07:23 UTC] PHP Warning:  include(functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 5
+[01-May-2018 02:07:23 UTC] PHP Stack trace:
+[01-May-2018 02:07:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[01-May-2018 02:07:23 UTC] PHP Warning:  include(): Failed opening 'functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 5
+[01-May-2018 02:07:23 UTC] PHP Stack trace:
+[01-May-2018 02:07:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[01-May-2018 02:07:23 UTC] PHP Fatal error:  Call to undefined function seedNav() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 28
+[01-May-2018 02:07:23 UTC] PHP Stack trace:
+[01-May-2018 02:07:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[01-May-2018 02:07:34 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 77
+[01-May-2018 02:07:34 UTC] PHP Stack trace:
+[01-May-2018 02:07:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[01-May-2018 02:15:36 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 77
+[01-May-2018 02:15:36 UTC] PHP Stack trace:
+[01-May-2018 02:15:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[01-May-2018 16:26:22 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 77
+[01-May-2018 16:26:22 UTC] PHP Stack trace:
+[01-May-2018 16:26:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[01-May-2018 16:36:55 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 94
+[01-May-2018 16:36:55 UTC] PHP Stack trace:
+[01-May-2018 16:36:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:07:23 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 96
+[02-May-2018 17:07:23 UTC] PHP Stack trace:
+[02-May-2018 17:07:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:09:31 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 157
+[02-May-2018 17:09:31 UTC] PHP Stack trace:
+[02-May-2018 17:09:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:10:29 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 158
+[02-May-2018 17:10:29 UTC] PHP Stack trace:
+[02-May-2018 17:10:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:11:07 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 158
+[02-May-2018 17:11:07 UTC] PHP Stack trace:
+[02-May-2018 17:11:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:11:10 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 158
+[02-May-2018 17:11:10 UTC] PHP Stack trace:
+[02-May-2018 17:11:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:23:15 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 163
+[02-May-2018 17:23:15 UTC] PHP Stack trace:
+[02-May-2018 17:23:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:25:03 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 164
+[02-May-2018 17:25:03 UTC] PHP Stack trace:
+[02-May-2018 17:25:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:28:18 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 167
+[02-May-2018 17:28:18 UTC] PHP Stack trace:
+[02-May-2018 17:28:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:29:00 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 167
+[02-May-2018 17:29:00 UTC] PHP Stack trace:
+[02-May-2018 17:29:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:29:22 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 167
+[02-May-2018 17:29:22 UTC] PHP Stack trace:
+[02-May-2018 17:29:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:29:42 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 167
+[02-May-2018 17:29:42 UTC] PHP Stack trace:
+[02-May-2018 17:29:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:30:25 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 167
+[02-May-2018 17:30:25 UTC] PHP Stack trace:
+[02-May-2018 17:30:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:30:30 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 167
+[02-May-2018 17:30:30 UTC] PHP Stack trace:
+[02-May-2018 17:30:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:30:49 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 167
+[02-May-2018 17:30:49 UTC] PHP Stack trace:
+[02-May-2018 17:30:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:30:57 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 167
+[02-May-2018 17:30:57 UTC] PHP Stack trace:
+[02-May-2018 17:30:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:30:59 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 167
+[02-May-2018 17:30:59 UTC] PHP Stack trace:
+[02-May-2018 17:30:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:31:07 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 167
+[02-May-2018 17:31:07 UTC] PHP Stack trace:
+[02-May-2018 17:31:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:31:09 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 167
+[02-May-2018 17:31:09 UTC] PHP Stack trace:
+[02-May-2018 17:31:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:31:39 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 167
+[02-May-2018 17:31:39 UTC] PHP Stack trace:
+[02-May-2018 17:31:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:31:42 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 167
+[02-May-2018 17:31:42 UTC] PHP Stack trace:
+[02-May-2018 17:31:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:31:57 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 167
+[02-May-2018 17:31:57 UTC] PHP Stack trace:
+[02-May-2018 17:31:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:32:17 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 167
+[02-May-2018 17:32:17 UTC] PHP Stack trace:
+[02-May-2018 17:32:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:33:18 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 150
+[02-May-2018 17:33:18 UTC] PHP Stack trace:
+[02-May-2018 17:33:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:33:33 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 150
+[02-May-2018 17:33:33 UTC] PHP Stack trace:
+[02-May-2018 17:33:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:33:50 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 150
+[02-May-2018 17:33:50 UTC] PHP Stack trace:
+[02-May-2018 17:33:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:34:26 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 150
+[02-May-2018 17:34:26 UTC] PHP Stack trace:
+[02-May-2018 17:34:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:34:28 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 150
+[02-May-2018 17:34:28 UTC] PHP Stack trace:
+[02-May-2018 17:34:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:36:48 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 150
+[02-May-2018 17:36:48 UTC] PHP Stack trace:
+[02-May-2018 17:36:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:37:16 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 150
+[02-May-2018 17:37:16 UTC] PHP Stack trace:
+[02-May-2018 17:37:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:37:38 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 150
+[02-May-2018 17:37:38 UTC] PHP Stack trace:
+[02-May-2018 17:37:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:37:53 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 150
+[02-May-2018 17:37:53 UTC] PHP Stack trace:
+[02-May-2018 17:37:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:38:13 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 150
+[02-May-2018 17:38:13 UTC] PHP Stack trace:
+[02-May-2018 17:38:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:38:39 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 152
+[02-May-2018 17:38:39 UTC] PHP Stack trace:
+[02-May-2018 17:38:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:39:20 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 107
+[02-May-2018 17:39:20 UTC] PHP Stack trace:
+[02-May-2018 17:39:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:39:30 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 104
+[02-May-2018 17:39:30 UTC] PHP Stack trace:
+[02-May-2018 17:39:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:39:52 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 104
+[02-May-2018 17:39:52 UTC] PHP Stack trace:
+[02-May-2018 17:39:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:40:09 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 104
+[02-May-2018 17:40:09 UTC] PHP Stack trace:
+[02-May-2018 17:40:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:40:25 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 103
+[02-May-2018 17:40:25 UTC] PHP Stack trace:
+[02-May-2018 17:40:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:43:15 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 104
+[02-May-2018 17:43:15 UTC] PHP Stack trace:
+[02-May-2018 17:43:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:43:42 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 104
+[02-May-2018 17:43:42 UTC] PHP Stack trace:
+[02-May-2018 17:43:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:44:15 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 104
+[02-May-2018 17:44:15 UTC] PHP Stack trace:
+[02-May-2018 17:44:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:44:30 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 104
+[02-May-2018 17:44:30 UTC] PHP Stack trace:
+[02-May-2018 17:44:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:44:38 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 104
+[02-May-2018 17:44:38 UTC] PHP Stack trace:
+[02-May-2018 17:44:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:44:47 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 104
+[02-May-2018 17:44:47 UTC] PHP Stack trace:
+[02-May-2018 17:44:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:45:18 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 104
+[02-May-2018 17:45:18 UTC] PHP Stack trace:
+[02-May-2018 17:45:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:45:58 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 104
+[02-May-2018 17:45:58 UTC] PHP Stack trace:
+[02-May-2018 17:45:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:46:10 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 104
+[02-May-2018 17:46:10 UTC] PHP Stack trace:
+[02-May-2018 17:46:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:46:21 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 104
+[02-May-2018 17:46:21 UTC] PHP Stack trace:
+[02-May-2018 17:46:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:46:31 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 104
+[02-May-2018 17:46:31 UTC] PHP Stack trace:
+[02-May-2018 17:46:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:46:47 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 104
+[02-May-2018 17:46:47 UTC] PHP Stack trace:
+[02-May-2018 17:46:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:48:33 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 104
+[02-May-2018 17:48:33 UTC] PHP Stack trace:
+[02-May-2018 17:48:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:48:45 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 103
+[02-May-2018 17:48:45 UTC] PHP Stack trace:
+[02-May-2018 17:48:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:49:23 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 103
+[02-May-2018 17:49:23 UTC] PHP Stack trace:
+[02-May-2018 17:49:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:49:39 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 103
+[02-May-2018 17:49:39 UTC] PHP Stack trace:
+[02-May-2018 17:49:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:49:49 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 103
+[02-May-2018 17:49:49 UTC] PHP Stack trace:
+[02-May-2018 17:49:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:49:58 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 103
+[02-May-2018 17:49:58 UTC] PHP Stack trace:
+[02-May-2018 17:49:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:50:16 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 103
+[02-May-2018 17:50:16 UTC] PHP Stack trace:
+[02-May-2018 17:50:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:50:26 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 103
+[02-May-2018 17:50:26 UTC] PHP Stack trace:
+[02-May-2018 17:50:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:50:55 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 103
+[02-May-2018 17:50:55 UTC] PHP Stack trace:
+[02-May-2018 17:50:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:51:09 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 103
+[02-May-2018 17:51:09 UTC] PHP Stack trace:
+[02-May-2018 17:51:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:53:08 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 103
+[02-May-2018 17:53:08 UTC] PHP Stack trace:
+[02-May-2018 17:53:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:53:29 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 103
+[02-May-2018 17:53:29 UTC] PHP Stack trace:
+[02-May-2018 17:53:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:53:44 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 103
+[02-May-2018 17:53:44 UTC] PHP Stack trace:
+[02-May-2018 17:53:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:53:58 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 103
+[02-May-2018 17:53:58 UTC] PHP Stack trace:
+[02-May-2018 17:53:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:54:05 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 103
+[02-May-2018 17:54:05 UTC] PHP Stack trace:
+[02-May-2018 17:54:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:54:14 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 103
+[02-May-2018 17:54:14 UTC] PHP Stack trace:
+[02-May-2018 17:54:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:54:30 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 103
+[02-May-2018 17:54:30 UTC] PHP Stack trace:
+[02-May-2018 17:54:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:54:48 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 105
+[02-May-2018 17:54:48 UTC] PHP Stack trace:
+[02-May-2018 17:54:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:55:19 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 105
+[02-May-2018 17:55:19 UTC] PHP Stack trace:
+[02-May-2018 17:55:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:55:36 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 108
+[02-May-2018 17:55:36 UTC] PHP Stack trace:
+[02-May-2018 17:55:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:56:12 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 108
+[02-May-2018 17:56:12 UTC] PHP Stack trace:
+[02-May-2018 17:56:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:56:42 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 110
+[02-May-2018 17:56:42 UTC] PHP Stack trace:
+[02-May-2018 17:56:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:56:51 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 107
+[02-May-2018 17:56:51 UTC] PHP Stack trace:
+[02-May-2018 17:56:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:57:30 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 106
+[02-May-2018 17:57:30 UTC] PHP Stack trace:
+[02-May-2018 17:57:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:57:57 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 106
+[02-May-2018 17:57:57 UTC] PHP Stack trace:
+[02-May-2018 17:57:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:58:13 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 106
+[02-May-2018 17:58:13 UTC] PHP Stack trace:
+[02-May-2018 17:58:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:58:36 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 106
+[02-May-2018 17:58:36 UTC] PHP Stack trace:
+[02-May-2018 17:58:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:58:43 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 106
+[02-May-2018 17:58:43 UTC] PHP Stack trace:
+[02-May-2018 17:58:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:59:11 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 106
+[02-May-2018 17:59:11 UTC] PHP Stack trace:
+[02-May-2018 17:59:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 17:59:22 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 106
+[02-May-2018 17:59:22 UTC] PHP Stack trace:
+[02-May-2018 17:59:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 18:00:03 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 106
+[02-May-2018 18:00:03 UTC] PHP Stack trace:
+[02-May-2018 18:00:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 18:00:43 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 106
+[02-May-2018 18:00:43 UTC] PHP Stack trace:
+[02-May-2018 18:00:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 18:01:31 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 106
+[02-May-2018 18:01:31 UTC] PHP Stack trace:
+[02-May-2018 18:01:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 18:01:58 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 106
+[02-May-2018 18:01:58 UTC] PHP Stack trace:
+[02-May-2018 18:01:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 18:02:10 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 106
+[02-May-2018 18:02:10 UTC] PHP Stack trace:
+[02-May-2018 18:02:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 18:02:23 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 106
+[02-May-2018 18:02:23 UTC] PHP Stack trace:
+[02-May-2018 18:02:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 18:03:44 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 106
+[02-May-2018 18:03:44 UTC] PHP Stack trace:
+[02-May-2018 18:03:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 18:03:56 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 106
+[02-May-2018 18:03:56 UTC] PHP Stack trace:
+[02-May-2018 18:03:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 18:04:30 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 106
+[02-May-2018 18:04:30 UTC] PHP Stack trace:
+[02-May-2018 18:04:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 18:05:21 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 106
+[02-May-2018 18:05:21 UTC] PHP Stack trace:
+[02-May-2018 18:05:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 18:05:26 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 106
+[02-May-2018 18:05:26 UTC] PHP Stack trace:
+[02-May-2018 18:05:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 18:06:02 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 102
+[02-May-2018 18:06:02 UTC] PHP Stack trace:
+[02-May-2018 18:06:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 18:06:38 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 102
+[02-May-2018 18:06:38 UTC] PHP Stack trace:
+[02-May-2018 18:06:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 18:08:21 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 102
+[02-May-2018 18:08:21 UTC] PHP Stack trace:
+[02-May-2018 18:08:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 18:08:28 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 102
+[02-May-2018 18:08:28 UTC] PHP Stack trace:
+[02-May-2018 18:08:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 18:08:37 UTC] PHP Warning:  include(functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcess.php on line 4
+[02-May-2018 18:08:37 UTC] PHP Stack trace:
+[02-May-2018 18:08:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcess.php:0
+[02-May-2018 18:08:37 UTC] PHP Warning:  include(): Failed opening 'functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcess.php on line 4
+[02-May-2018 18:08:37 UTC] PHP Stack trace:
+[02-May-2018 18:08:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcess.php:0
+[02-May-2018 18:08:37 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcess.php on line 6
+[02-May-2018 18:08:37 UTC] PHP Stack trace:
+[02-May-2018 18:08:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcess.php:0
+[02-May-2018 18:08:39 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 102
+[02-May-2018 18:08:39 UTC] PHP Stack trace:
+[02-May-2018 18:08:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 18:09:35 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 102
+[02-May-2018 18:09:35 UTC] PHP Stack trace:
+[02-May-2018 18:09:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 18:09:36 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 102
+[02-May-2018 18:09:36 UTC] PHP Stack trace:
+[02-May-2018 18:09:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 18:11:15 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 110
+[02-May-2018 18:11:15 UTC] PHP Stack trace:
+[02-May-2018 18:11:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 18:11:44 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 114
+[02-May-2018 18:11:44 UTC] PHP Stack trace:
+[02-May-2018 18:11:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 18:11:46 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 114
+[02-May-2018 18:11:46 UTC] PHP Stack trace:
+[02-May-2018 18:11:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 18:11:48 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 114
+[02-May-2018 18:11:48 UTC] PHP Stack trace:
+[02-May-2018 18:11:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 18:13:16 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 114
+[02-May-2018 18:13:16 UTC] PHP Stack trace:
+[02-May-2018 18:13:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 18:13:23 UTC] PHP Warning:  include(functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcess.php on line 4
+[02-May-2018 18:13:23 UTC] PHP Stack trace:
+[02-May-2018 18:13:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcess.php:0
+[02-May-2018 18:13:23 UTC] PHP Warning:  include(): Failed opening 'functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcess.php on line 4
+[02-May-2018 18:13:23 UTC] PHP Stack trace:
+[02-May-2018 18:13:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcess.php:0
+[02-May-2018 18:13:23 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcess.php on line 6
+[02-May-2018 18:13:23 UTC] PHP Stack trace:
+[02-May-2018 18:13:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcess.php:0
+[02-May-2018 18:13:25 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 114
+[02-May-2018 18:13:25 UTC] PHP Stack trace:
+[02-May-2018 18:13:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 20:56:00 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 129
+[02-May-2018 20:56:00 UTC] PHP Stack trace:
+[02-May-2018 20:56:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:12:49 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 147
+[02-May-2018 21:12:49 UTC] PHP Stack trace:
+[02-May-2018 21:12:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:12:49 UTC] PHP Warning:  include(functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcessAPI.php on line 4
+[02-May-2018 21:12:49 UTC] PHP Stack trace:
+[02-May-2018 21:12:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcessAPI.php:0
+[02-May-2018 21:12:49 UTC] PHP Warning:  include(): Failed opening 'functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcessAPI.php on line 4
+[02-May-2018 21:12:49 UTC] PHP Stack trace:
+[02-May-2018 21:12:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcessAPI.php:0
+[02-May-2018 21:12:49 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcessAPI.php on line 6
+[02-May-2018 21:12:49 UTC] PHP Stack trace:
+[02-May-2018 21:12:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcessAPI.php:0
+[02-May-2018 21:12:52 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 147
+[02-May-2018 21:12:52 UTC] PHP Stack trace:
+[02-May-2018 21:12:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:12:52 UTC] PHP Warning:  include(functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcessAPI.php on line 4
+[02-May-2018 21:12:52 UTC] PHP Stack trace:
+[02-May-2018 21:12:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcessAPI.php:0
+[02-May-2018 21:12:52 UTC] PHP Warning:  include(): Failed opening 'functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcessAPI.php on line 4
+[02-May-2018 21:12:52 UTC] PHP Stack trace:
+[02-May-2018 21:12:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcessAPI.php:0
+[02-May-2018 21:12:52 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcessAPI.php on line 6
+[02-May-2018 21:12:52 UTC] PHP Stack trace:
+[02-May-2018 21:12:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcessAPI.php:0
+[02-May-2018 21:13:04 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 147
+[02-May-2018 21:13:04 UTC] PHP Stack trace:
+[02-May-2018 21:13:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:13:05 UTC] PHP Warning:  include(functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcessAPI.php on line 4
+[02-May-2018 21:13:05 UTC] PHP Stack trace:
+[02-May-2018 21:13:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcessAPI.php:0
+[02-May-2018 21:13:05 UTC] PHP Warning:  include(): Failed opening 'functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcessAPI.php on line 4
+[02-May-2018 21:13:05 UTC] PHP Stack trace:
+[02-May-2018 21:13:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcessAPI.php:0
+[02-May-2018 21:13:05 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcessAPI.php on line 6
+[02-May-2018 21:13:05 UTC] PHP Stack trace:
+[02-May-2018 21:13:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcessAPI.php:0
+[02-May-2018 21:13:53 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 151
+[02-May-2018 21:13:53 UTC] PHP Stack trace:
+[02-May-2018 21:13:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:13:55 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 151
+[02-May-2018 21:13:55 UTC] PHP Stack trace:
+[02-May-2018 21:13:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:14:07 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 151
+[02-May-2018 21:14:07 UTC] PHP Stack trace:
+[02-May-2018 21:14:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:14:16 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 151
+[02-May-2018 21:14:16 UTC] PHP Stack trace:
+[02-May-2018 21:14:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:14:18 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 151
+[02-May-2018 21:14:18 UTC] PHP Stack trace:
+[02-May-2018 21:14:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:15:15 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 151
+[02-May-2018 21:15:15 UTC] PHP Stack trace:
+[02-May-2018 21:15:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:15:16 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 151
+[02-May-2018 21:15:16 UTC] PHP Stack trace:
+[02-May-2018 21:15:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:15:18 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 151
+[02-May-2018 21:15:18 UTC] PHP Stack trace:
+[02-May-2018 21:15:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:15:23 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 151
+[02-May-2018 21:15:23 UTC] PHP Stack trace:
+[02-May-2018 21:15:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:16:42 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 151
+[02-May-2018 21:16:42 UTC] PHP Stack trace:
+[02-May-2018 21:16:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:16:45 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 151
+[02-May-2018 21:16:45 UTC] PHP Stack trace:
+[02-May-2018 21:16:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:18:45 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 151
+[02-May-2018 21:18:45 UTC] PHP Stack trace:
+[02-May-2018 21:18:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:18:50 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 151
+[02-May-2018 21:18:50 UTC] PHP Stack trace:
+[02-May-2018 21:18:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:19:02 UTC] PHP Warning:  include(functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcessAPI.php on line 4
+[02-May-2018 21:19:02 UTC] PHP Stack trace:
+[02-May-2018 21:19:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcessAPI.php:0
+[02-May-2018 21:19:02 UTC] PHP Warning:  include(): Failed opening 'functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcessAPI.php on line 4
+[02-May-2018 21:19:02 UTC] PHP Stack trace:
+[02-May-2018 21:19:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcessAPI.php:0
+[02-May-2018 21:19:02 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcessAPI.php on line 6
+[02-May-2018 21:19:02 UTC] PHP Stack trace:
+[02-May-2018 21:19:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/loginProcessAPI.php:0
+[02-May-2018 21:19:42 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 151
+[02-May-2018 21:19:42 UTC] PHP Stack trace:
+[02-May-2018 21:19:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:19:47 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 151
+[02-May-2018 21:19:47 UTC] PHP Stack trace:
+[02-May-2018 21:19:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:20:49 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 151
+[02-May-2018 21:20:49 UTC] PHP Stack trace:
+[02-May-2018 21:20:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:21:03 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 151
+[02-May-2018 21:21:03 UTC] PHP Stack trace:
+[02-May-2018 21:21:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:21:05 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 151
+[02-May-2018 21:21:05 UTC] PHP Stack trace:
+[02-May-2018 21:21:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:21:37 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 154
+[02-May-2018 21:21:37 UTC] PHP Stack trace:
+[02-May-2018 21:21:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:21:38 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 154
+[02-May-2018 21:21:38 UTC] PHP Stack trace:
+[02-May-2018 21:21:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:21:39 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 154
+[02-May-2018 21:21:39 UTC] PHP Stack trace:
+[02-May-2018 21:21:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:21:40 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 154
+[02-May-2018 21:21:40 UTC] PHP Stack trace:
+[02-May-2018 21:21:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:21:41 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 154
+[02-May-2018 21:21:41 UTC] PHP Stack trace:
+[02-May-2018 21:21:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:34:49 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 39
+[02-May-2018 21:35:08 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[02-May-2018 21:35:08 UTC] PHP Stack trace:
+[02-May-2018 21:35:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:35:15 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[02-May-2018 21:35:15 UTC] PHP Stack trace:
+[02-May-2018 21:35:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:35:27 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[02-May-2018 21:35:27 UTC] PHP Stack trace:
+[02-May-2018 21:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:35:40 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[02-May-2018 21:35:40 UTC] PHP Stack trace:
+[02-May-2018 21:35:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:35:52 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[02-May-2018 21:35:52 UTC] PHP Stack trace:
+[02-May-2018 21:35:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:37:02 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[02-May-2018 21:37:02 UTC] PHP Stack trace:
+[02-May-2018 21:37:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:37:08 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[02-May-2018 21:37:08 UTC] PHP Stack trace:
+[02-May-2018 21:37:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:37:28 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[02-May-2018 21:37:28 UTC] PHP Stack trace:
+[02-May-2018 21:37:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:37:34 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[02-May-2018 21:37:34 UTC] PHP Stack trace:
+[02-May-2018 21:37:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:39:25 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 154
+[02-May-2018 21:39:25 UTC] PHP Stack trace:
+[02-May-2018 21:39:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:39:28 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 154
+[02-May-2018 21:39:28 UTC] PHP Stack trace:
+[02-May-2018 21:39:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:39:45 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 154
+[02-May-2018 21:39:45 UTC] PHP Stack trace:
+[02-May-2018 21:39:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:39:46 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 154
+[02-May-2018 21:39:46 UTC] PHP Stack trace:
+[02-May-2018 21:39:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:39:48 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 154
+[02-May-2018 21:39:48 UTC] PHP Stack trace:
+[02-May-2018 21:39:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:40:48 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 154
+[02-May-2018 21:40:48 UTC] PHP Stack trace:
+[02-May-2018 21:40:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:40:49 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 154
+[02-May-2018 21:40:49 UTC] PHP Stack trace:
+[02-May-2018 21:40:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:40:50 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 154
+[02-May-2018 21:40:50 UTC] PHP Stack trace:
+[02-May-2018 21:40:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:43:52 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[02-May-2018 21:43:52 UTC] PHP Stack trace:
+[02-May-2018 21:43:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:43:53 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[02-May-2018 21:43:53 UTC] PHP Stack trace:
+[02-May-2018 21:43:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:43:54 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[02-May-2018 21:43:54 UTC] PHP Stack trace:
+[02-May-2018 21:43:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:44:19 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[02-May-2018 21:44:19 UTC] PHP Stack trace:
+[02-May-2018 21:44:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:44:21 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[02-May-2018 21:44:21 UTC] PHP Stack trace:
+[02-May-2018 21:44:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:44:28 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[02-May-2018 21:44:28 UTC] PHP Stack trace:
+[02-May-2018 21:44:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:45:39 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[02-May-2018 21:45:39 UTC] PHP Stack trace:
+[02-May-2018 21:45:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:45:42 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[02-May-2018 21:45:42 UTC] PHP Stack trace:
+[02-May-2018 21:45:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:45:52 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[02-May-2018 21:45:52 UTC] PHP Stack trace:
+[02-May-2018 21:45:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:46:01 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 154
+[02-May-2018 21:46:01 UTC] PHP Stack trace:
+[02-May-2018 21:46:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:46:05 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 154
+[02-May-2018 21:46:05 UTC] PHP Stack trace:
+[02-May-2018 21:46:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:46:09 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 154
+[02-May-2018 21:46:09 UTC] PHP Stack trace:
+[02-May-2018 21:46:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:47:29 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 154
+[02-May-2018 21:47:29 UTC] PHP Stack trace:
+[02-May-2018 21:47:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:47:34 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 154
+[02-May-2018 21:47:34 UTC] PHP Stack trace:
+[02-May-2018 21:47:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:47:47 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 154
+[02-May-2018 21:47:47 UTC] PHP Stack trace:
+[02-May-2018 21:47:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:47:55 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 154
+[02-May-2018 21:47:55 UTC] PHP Stack trace:
+[02-May-2018 21:47:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:47:57 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 154
+[02-May-2018 21:47:57 UTC] PHP Stack trace:
+[02-May-2018 21:47:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:49:34 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 159
+[02-May-2018 21:49:34 UTC] PHP Stack trace:
+[02-May-2018 21:49:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:49:36 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 159
+[02-May-2018 21:49:36 UTC] PHP Stack trace:
+[02-May-2018 21:49:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[02-May-2018 21:49:38 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 159
+[02-May-2018 21:49:38 UTC] PHP Stack trace:
+[02-May-2018 21:49:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0

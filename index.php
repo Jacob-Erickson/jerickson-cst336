@@ -22,7 +22,7 @@
                 <td><a href="Homework/Homework_1/index.html">Homework #1: <br /> Computer Science Subject</a></td>
                 <td><a href="Challenges/Challenge_1/seasons_home.html">Challenge #1: <br /> Seasonal Images</a></td>
                 <td><a href="Practice/randomColor.php">Practice #1: <br /> Random Color Generator</a></td>
-                <td><a href="/CST336-Team_Project/index.php">Team Project</a></td>
+                <td><a href="/Projects/Team_Project/index.php">Team Project</a></td>
             </tr>
             <tr>
                 <td><a href="Labs/Lab_2/777/index.php">Lab #2: <br /> Slot Machine Game </a></td>
@@ -53,6 +53,9 @@
             </tr>
             <tr>
                 <td><a href="Labs/Lab_9/signup-1.html">Lab #9: <br /> Sign Up Page </a></td>
+            </tr>
+            <tr>
+                <td><a href="Labs/Lab_10/pets/index.php">Lab 10: <br /> CSUMB Pet Shelter </a></td>
             </tr>
         </table>
         
