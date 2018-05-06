@@ -44,9 +44,9 @@
                     
                     $("#petModalLabel").html(data.name);
                     $("#petInfo").html("<img src='img/" + data.pictureURL + "' style='float: left;' />");
-                    $("#petInfo").append("<span style='width: 50%; float: right;'><h5 style='text-align: left;'><strong>Age: </strong>" + data.age + "</h5><hr />");
+                    $("#petInfo").append("<h5 style='text-align: left;'><strong>Age: </strong>" + data.age + "</h5><hr />");
                     $("#petInfo").append("<h5 style='text-align: left;'><strong>Breed:</strong><br />" + data.breed + "</h5><hr />");
-                    $("#petInfo").append("<h5 style='text-align: left;'><strong>About Me:</strong><br />" + data.description + "<br /></span>");
+                    $("#petInfo").append("<h5 style='text-align: left;'><strong>About Me:</strong><br />" + data.description + "<br />");
                     
                 },
                 complete: function(data,status) { //optional, used for debugging purposes
