@@ -96,7 +96,7 @@
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style='z-index: -1;'>
                             Admin
                         </a>
-                        <div class="dropdown-menu pull-right" aria-labelledby="navbarDropdownMenuLink">
+                        <div class="dropdown-menu pull-left" aria-labelledby="navbarDropdownMenuLink">
                             <?php
                             
                                 if(!isset($_SESSION['user']))
