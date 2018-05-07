@@ -92,24 +92,9 @@
         
             <h1>Catalog</h1>
             
-            <div id="results">
-                
-                <table>
-                    <tr>
-                        <th>itemId</th>
-                        <th>authorId</th>
-                        <th>title</th>
-                        <th>description</th>
-                        <th>price</th>
-                        <th>demoId</th>
-                        <th>genre_1</th>
-                        <th>genre_2</th>
-                        <th>genre_3</th>
-                        <th>itemImage</th>
-                    </tr>
-                </table>
-                
-            </div>
+            <div id="fullCatalog"></div>
+            
+        </main>
        
         <?php
         

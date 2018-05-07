@@ -60,6 +60,15 @@
                 $records = getCodeResults($sql, $conn);
                 break;
             }
+        case 'all':
+            {
+                $sql = "SELECT *
+                        FROM catalog
+                        NATURAL JOIN demographics
+                        NATURAL JOIN authors;";
+                $records = getCodeResults($sql, $conn);
+                break;
+            }
         default:
             {
                 break;

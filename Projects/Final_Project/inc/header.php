@@ -40,6 +40,7 @@
                 seedBlankSelects("#demographics", "demo", true);
                 seedBlankSelects("#genre", "genre", true);
                 $("#home").addClass("active");
+                displayTable();
                 
                 $("#demographics").change(function (){
                     
