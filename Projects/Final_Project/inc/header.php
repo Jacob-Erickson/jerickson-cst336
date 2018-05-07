@@ -17,6 +17,7 @@
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    	<script type="text/javascript" src="funcs/javascriptFunctions.js"></script>
     	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>   
         <style>
@@ -27,11 +28,19 @@
     $(document).ready(function(){//start document ready
         
         var current = window.location.href.split('/').pop();
-        
+        current = current.split('?')[0];
         
             if(current == $("#homeLink").attr('href'))
             {
+                seedBlankSelects("#demographics", "demo", true);
+                seedBlankSelects("#genre", "genre", true);
                 $("#home").addClass("active");
+                alert($("#demographics").val());
+                $("#demographics").change(function (){
+                    
+                    $(this.val() + "Info").show();
+                    
+                });
             }
             else if(current == $("#adoptLink").attr('href'))
             {
@@ -77,7 +86,7 @@
     <body>
         
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="http://csumb.edu">Manga Mart</a>
+            <a class="navbar-brand" href="index.php">Manga Mart</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -86,9 +95,16 @@
                     <li id="home" class="nav-item">
                         <a id="homeLink" class="nav-link" href="index.php">Home <span class="sr-only"></span></a>
                     </li>
-                    <li id="adopt" class="nav-item">
-                        <a id="adoptLink" class="nav-link" href="pets.php">Cart <i class='glyphicon glyphicon-shopping-cart' aria-hidden='true'></i></a>
-                    </li>
+                    <?php
+                            
+                        if(!isset($_SESSION['user']))
+                        {
+                            echo '<li id="adopt" class="nav-item">';
+                            echo '<a id="adoptLink" class="nav-link" href="scart.php">Cart </a>';
+                            echo '</li>';
+                        }
+                            
+                    ?>
                     <li id="about" class="nav-item">
                         <a id="aboutLink" class="nav-link" href="about.php">About Us</a>
                     </li>
@@ -125,3 +141,4 @@
           <h1> CSUMB Animal Shelter</h1>
           <h2> The "official" animal adoption website of CSUMB </h2>
         </div>
+        

@@ -70,52 +70,25 @@
         </header>
 -->
         <main>
-        
-        <?php
-        
-            if(!isset($_SESSION['user']) && ($_GET['page'] == "admin"))
-            {
+            
+            <form>
+                <span>Minimum Price</span><input type="text" name="minimum"/>
+                <span>Maximum Price</span><input type="text" name="maximum"/>
+                <br />
+                <span>Author</span><input type="text" name="author"/>
+                <br />
+                <span>Demographic</span><select id="demographics" name="demographic"></select>
+                <div id="demoInfo" style="border-style: solid; border-color: black;">
+                    hello
+                </div>
+                <span>Genre</span><select id="genre" name="genre"></select>
+                <div id="genreInfo" style="border-style: solid; border-color: black;">
+                    hello
+                </div>
                 
-        ?>
+                <input type="submit" value="Filter"/>
+            </form>
         
-        <h1> Admin Login </h1>
-        
-        
-        
-        <hr />
-        
-        <form method="post" onsubmit="return login()" >
-            Username: &emsp;<input type="text" name="username" id="username"/> <br />
-            <hr />
-            Password: &emsp; <input type="password" name="password" id="password"/> <br />
-            <hr />
-            <input type="submit" name="submitForm" value="Login" />
-            
-        </form>
-        
-        <?php
-        
-            }//end of if statement
-            else if(isset($_SESSION['user']) && ($_GET['page'] == "admin"))
-            {
-        
-        ?>
-        
-        <h1>You are already logged in.</h1>
-        <h2>To log in as a different user please first log out.</h2>
-        <form onsubmit="
-                alert("<?php echo $_SESSION['user'];?>");">
-            
-            <input type="submit" value="Submit"/>
-        </form>
-        
-        <?php
-        
-            }//end of else if statement
-            else
-            {
-        
-        ?>
         
             <h1>Catalog</h1>
             
@@ -137,19 +110,9 @@
                 </table>
                 
             </div>
-        
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown link
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-        
+       
         <?php
-            }//end of else statement
-            
+        
             include "inc/footer.php";
             
         ?>
