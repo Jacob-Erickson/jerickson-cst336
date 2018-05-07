@@ -87,7 +87,7 @@
                         <a id="homeLink" class="nav-link" href="index.php">Home <span class="sr-only"></span></a>
                     </li>
                     <li id="adopt" class="nav-item">
-                        <a id="adoptLink" class="nav-link" href="pets.php">Adoption</a>
+                        <a id="adoptLink" class="nav-link" href="pets.php">Cart <i class='glyphicon glyphicon-shopping-cart' aria-hidden='true'></i></a>
                     </li>
                     <li id="about" class="nav-item">
                         <a id="aboutLink" class="nav-link" href="about.php">About Us</a>
@@ -99,9 +99,9 @@
                         <div class="dropdown-menu pull-left" aria-labelledby="navbarDropdownMenuLink">
                             <?php
                             
-                                if(!isset($_SESSION['user']))
+                                if(isset($_SESSION['user']))
                                 {
-                                    echo '<a class="dropdown-item" href="#">User</a>';
+                                    echo '<a class="dropdown-item" href="index.php">User</a>';
                                     echo '<hr />';
                                     echo '<a class="dropdown-item" href="#">Add</a>';
                                     echo '<a class="dropdown-item" href="#">Update</a>';
