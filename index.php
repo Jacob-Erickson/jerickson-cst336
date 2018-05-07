@@ -28,6 +28,7 @@
                 <td><a href="Labs/Lab_2/777/index.php">Lab #02: <br /> Slot Machine Game </a></td>
                 <td><a href="Homework/Homework_2/index.html">Homework #02: <br /> Vocab Trainer</a></td>
                 <td><a href="Challenges/Challenge_2/Version_2/card_game_v2.php">Challenge #2: <br /> War Card Game</a></td>
+                <td><a href="/Projects/Final_Project/index.php">Final Project</a></td>
                 <td></td>
                 <td>Final Project</td>
             </tr>

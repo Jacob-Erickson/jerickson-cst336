@@ -1,15 +1,9 @@
 <?php  
 
-    session_start();
-
-    include "phpFunctions.php";
-    
-    if(isset($_POST['logout']))
-    {
-        unset($_SESSION['user']);
-    }
+    include "inc/header.php";
 
 ?>
+<!--
 <!DOCTYPE html>
 <html>
         <head>
@@ -35,7 +29,7 @@
                         "password": $("#password").val()},
                 success: function(data,status) {
                 alert(data);
-                alert("<?php echo $_SESSION['user'];?>");
+                alert("<?//php echo $_SESSION['user'];?>");
                 },
                 complete: function(data,status) { //optional, used for debugging purposes
                 //alert(status);
@@ -49,7 +43,7 @@
         </script>
         </head>
     <body>
-        
+
         <header style="width: 100%;">
         <nav class='navbar navbar-default - navbar-fixed-top'>
         <div class='navbar-header'>
@@ -74,7 +68,7 @@
         </ul>
         </nav>
         </header>
-        
+-->
         <main>
         
         <?php
@@ -146,17 +140,16 @@
         
         <?php
             }//end of else statement
+            
+            include "inc/footer.php";
+            
         ?>
-        </main>
-
-    </body>
-</html>
 <!--
 
                             <a href='scart.php'>
                                 <span class='glyphicon glyphicon-shopping-cart' aria-hidden='true'>
                                 </span>
-                            Cart <?php displayCartCount(); ?>
+                            Cart <?//php displayCartCount(); ?>
                             </a>
                             
                             -->

@@ -1,71 +1,12 @@
-body {
-    display: inline-block;
-    width: 60%;
-    margin-left: 19%;
-}
-header {
-    display: inline-block;
-}
-nav {
-    display: inline-block;
-}
-main {
+body
+{
     text-align: center;
-    margin-top: 10%;
-    max-height: 80%;
-    margin-bottom: 10%;
+    width: 100%;
 }
-input {
-    border-style: ridge;
-}
-#nav-form {
-    display: inline-block;
-}
-
-#nav-form input{
-    display: block;
-    float: right;
-}
-
-span {
-    display: block;
-    float: left;
-}
-table, td {
-    border-style: ridge;
-}
-
-table {
-    width: 80%;
-}
-td {
-    max-width: 20%;
-    padding-bottom: 3%;
-    vertical-align: middle;
-}
-img {
-    display: block;
-    max-width: 100%;
-}
-div {
-    width: 30%;
-    height: 30%;
-}
-span {
-    margin-left: 30%;
-    margin-right: 0%;
-}
-#add_select {
-    float: right;
-    margin-right: 37.5%;
-}
-#submit {
-    margin-right: 0%;
-}
-#add {
-    float: right;
-    margin-right: 35%;
-}
-#removal {
-    margin-left: -10%;
+.nav-link:hover
+{
+	background-color: rgba(0, 0, 0, .5);
+	border-radius: 15px;
+	color: black;
+	text-decoration: none;
 }

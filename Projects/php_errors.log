@@ -605,3 +605,168 @@
 [02-May-2018 21:49:38 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 159
 [02-May-2018 21:49:38 UTC] PHP Stack trace:
 [02-May-2018 21:49:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 22:56:33 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 162
+[06-May-2018 22:56:33 UTC] PHP Stack trace:
+[06-May-2018 22:56:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 22:56:54 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 162
+[06-May-2018 22:56:54 UTC] PHP Stack trace:
+[06-May-2018 22:56:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 22:58:01 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/phpFunctions.php:3) in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/phpFunctions.php on line 3
+[06-May-2018 22:58:01 UTC] PHP Stack trace:
+[06-May-2018 22:58:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 22:58:01 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:12
+[06-May-2018 22:58:28 UTC] PHP Warning:  include(../phpFunctions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 22:58:28 UTC] PHP Stack trace:
+[06-May-2018 22:58:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 22:58:28 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:12
+[06-May-2018 22:58:28 UTC] PHP Warning:  include(): Failed opening '../phpFunctions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 22:58:28 UTC] PHP Stack trace:
+[06-May-2018 22:58:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 22:58:28 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:12
+[06-May-2018 22:58:28 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 162
+[06-May-2018 22:58:28 UTC] PHP Stack trace:
+[06-May-2018 22:58:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 22:59:58 UTC] PHP Warning:  include(../phpFunctions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 22:59:58 UTC] PHP Stack trace:
+[06-May-2018 22:59:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 22:59:58 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:12
+[06-May-2018 22:59:58 UTC] PHP Warning:  include(): Failed opening '../phpFunctions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 22:59:58 UTC] PHP Stack trace:
+[06-May-2018 22:59:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 22:59:58 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:12
+[06-May-2018 22:59:58 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 162
+[06-May-2018 22:59:58 UTC] PHP Stack trace:
+[06-May-2018 22:59:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:00:05 UTC] PHP Warning:  include(../phpFunctions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 23:00:05 UTC] PHP Stack trace:
+[06-May-2018 23:00:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:00:05 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:3
+[06-May-2018 23:00:05 UTC] PHP Warning:  include(): Failed opening '../phpFunctions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 23:00:05 UTC] PHP Stack trace:
+[06-May-2018 23:00:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:00:05 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:3
+[06-May-2018 23:00:05 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[06-May-2018 23:00:05 UTC] PHP Stack trace:
+[06-May-2018 23:00:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:01:27 UTC] PHP Warning:  include(../phpFunctions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 23:01:27 UTC] PHP Stack trace:
+[06-May-2018 23:01:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:01:27 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:3
+[06-May-2018 23:01:27 UTC] PHP Warning:  include(): Failed opening '../phpFunctions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 23:01:27 UTC] PHP Stack trace:
+[06-May-2018 23:01:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:01:27 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:3
+[06-May-2018 23:01:27 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[06-May-2018 23:01:27 UTC] PHP Stack trace:
+[06-May-2018 23:01:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:01:46 UTC] PHP Warning:  include(../phpFunctions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 23:01:46 UTC] PHP Stack trace:
+[06-May-2018 23:01:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:01:46 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:3
+[06-May-2018 23:01:46 UTC] PHP Warning:  include(): Failed opening '../phpFunctions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 23:01:46 UTC] PHP Stack trace:
+[06-May-2018 23:01:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:01:46 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:3
+[06-May-2018 23:01:46 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[06-May-2018 23:01:46 UTC] PHP Stack trace:
+[06-May-2018 23:01:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:02:18 UTC] PHP Warning:  include(../phpFunctions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 23:02:18 UTC] PHP Stack trace:
+[06-May-2018 23:02:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:02:18 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:3
+[06-May-2018 23:02:18 UTC] PHP Warning:  include(): Failed opening '../phpFunctions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 23:02:18 UTC] PHP Stack trace:
+[06-May-2018 23:02:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:02:18 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:3
+[06-May-2018 23:02:18 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[06-May-2018 23:02:18 UTC] PHP Stack trace:
+[06-May-2018 23:02:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:04:23 UTC] PHP Warning:  include(../phpFunctions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 23:04:23 UTC] PHP Stack trace:
+[06-May-2018 23:04:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:04:23 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:3
+[06-May-2018 23:04:23 UTC] PHP Warning:  include(): Failed opening '../phpFunctions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 23:04:23 UTC] PHP Stack trace:
+[06-May-2018 23:04:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:04:23 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:3
+[06-May-2018 23:04:23 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[06-May-2018 23:04:23 UTC] PHP Stack trace:
+[06-May-2018 23:04:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:08:03 UTC] PHP Warning:  include(../phpFunctions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 23:08:03 UTC] PHP Stack trace:
+[06-May-2018 23:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:08:03 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:3
+[06-May-2018 23:08:03 UTC] PHP Warning:  include(): Failed opening '../phpFunctions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 23:08:03 UTC] PHP Stack trace:
+[06-May-2018 23:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:08:03 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:3
+[06-May-2018 23:08:03 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[06-May-2018 23:08:03 UTC] PHP Stack trace:
+[06-May-2018 23:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:11:23 UTC] PHP Warning:  include(../../phpFunctions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 23:11:23 UTC] PHP Stack trace:
+[06-May-2018 23:11:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:11:23 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:3
+[06-May-2018 23:11:23 UTC] PHP Warning:  include(): Failed opening '../../phpFunctions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 23:11:23 UTC] PHP Stack trace:
+[06-May-2018 23:11:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:11:23 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:3
+[06-May-2018 23:11:23 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[06-May-2018 23:11:23 UTC] PHP Stack trace:
+[06-May-2018 23:11:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:13:10 UTC] PHP Warning:  include(..Final_Project/phpFunctions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 23:13:10 UTC] PHP Stack trace:
+[06-May-2018 23:13:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:13:10 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:3
+[06-May-2018 23:13:10 UTC] PHP Warning:  include(): Failed opening '..Final_Project/phpFunctions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 23:13:10 UTC] PHP Stack trace:
+[06-May-2018 23:13:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:13:10 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:3
+[06-May-2018 23:13:10 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[06-May-2018 23:13:10 UTC] PHP Stack trace:
+[06-May-2018 23:13:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:15:24 UTC] PHP Warning:  include(../funs/phpFunctions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 23:15:24 UTC] PHP Stack trace:
+[06-May-2018 23:15:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:15:24 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:3
+[06-May-2018 23:15:24 UTC] PHP Warning:  include(): Failed opening '../funs/phpFunctions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 23:15:24 UTC] PHP Stack trace:
+[06-May-2018 23:15:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:15:24 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:3
+[06-May-2018 23:15:24 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[06-May-2018 23:15:24 UTC] PHP Stack trace:
+[06-May-2018 23:15:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:18:25 UTC] PHP Warning:  include(../funs/phpFunctions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 23:18:25 UTC] PHP Stack trace:
+[06-May-2018 23:18:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:18:25 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:3
+[06-May-2018 23:18:25 UTC] PHP Warning:  include(): Failed opening '../funs/phpFunctions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 23:18:25 UTC] PHP Stack trace:
+[06-May-2018 23:18:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:18:25 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:3
+[06-May-2018 23:18:25 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[06-May-2018 23:18:25 UTC] PHP Stack trace:
+[06-May-2018 23:18:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:19:00 UTC] PHP Warning:  include(../funcs/phpFunctions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 23:19:00 UTC] PHP Stack trace:
+[06-May-2018 23:19:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:19:00 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:3
+[06-May-2018 23:19:00 UTC] PHP Warning:  include(): Failed opening '../funcs/phpFunctions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/inc/header.php on line 5
+[06-May-2018 23:19:00 UTC] PHP Stack trace:
+[06-May-2018 23:19:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:19:00 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:3
+[06-May-2018 23:19:00 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[06-May-2018 23:19:00 UTC] PHP Stack trace:
+[06-May-2018 23:19:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:20:27 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[06-May-2018 23:20:27 UTC] PHP Stack trace:
+[06-May-2018 23:20:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:20:40 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[06-May-2018 23:20:40 UTC] PHP Stack trace:
+[06-May-2018 23:20:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:20:43 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[06-May-2018 23:20:43 UTC] PHP Stack trace:
+[06-May-2018 23:20:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
+[06-May-2018 23:22:28 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php on line 153
+[06-May-2018 23:22:28 UTC] PHP Stack trace:
+[06-May-2018 23:22:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/index.php:0
