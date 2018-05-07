@@ -22,13 +22,13 @@
                 <td><a href="Homework/Homework_1/index.html">Homework #01: <br /> Computer Science Subject</a></td>
                 <td><a href="Challenges/Challenge_1/seasons_home.html">Challenge #01: <br /> Seasonal Images</a></td>
                 <td><a href="Practice/randomColor.php">Practice #01: <br /> Random Color Generator</a></td>
-                <td><a href="/Projects/Team_Project/index.php">Team Project</a></td>
+                <td><a href="Projects/Team_Project/index.php">Team Project</a></td>
             </tr>
             <tr>
                 <td><a href="Labs/Lab_2/777/index.php">Lab #02: <br /> Slot Machine Game </a></td>
                 <td><a href="Homework/Homework_2/index.html">Homework #02: <br /> Vocab Trainer</a></td>
                 <td><a href="Challenges/Challenge_2/Version_2/card_game_v2.php">Challenge #2: <br /> War Card Game</a></td>
-                <td><a href="/Projects/Final_Project/index.php">Final Project</a></td>
+                <td><a href="Projects/Final_Project/index.php">Final Project</a></td>
                 <td></td>
                 <td>Final Project</td>
             </tr>
