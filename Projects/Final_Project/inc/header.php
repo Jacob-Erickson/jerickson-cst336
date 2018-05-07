@@ -9,6 +9,11 @@
         unset($_SESSION['user']);
     }
     
+    if(!isset($_SESSION['cart']))
+    {
+        $_SESSION['cart'] = array();
+    }
+    
 ?>
 <!DOCTYPE html>
 <html>
@@ -35,10 +40,18 @@
                 seedBlankSelects("#demographics", "demo", true);
                 seedBlankSelects("#genre", "genre", true);
                 $("#home").addClass("active");
-                alert($("#demographics").val());
+                
                 $("#demographics").change(function (){
                     
-                    $(this.val() + "Info").show();
+                    $("#demoInfo").children().hide();
+                    $("#" + $("#demographics").val() + "Info").show();
+                    
+                });
+                
+                $("#genre").change(function (){
+                    
+                    $("#genreInfo").children().hide();
+                    $("#" + $("#genre").val() + "Info").show();
                     
                 });
             }
@@ -117,16 +130,16 @@
                             
                                 if(isset($_SESSION['user']))
                                 {
-                                    echo '<a class="dropdown-item" href="index.php">User</a>';
+                                    echo '<a class="dropdown-item" href="user.php">User</a>';
                                     echo '<hr />';
-                                    echo '<a class="dropdown-item" href="#">Add</a>';
-                                    echo '<a class="dropdown-item" href="#">Update</a>';
-                                    echo '<a class="dropdown-item" href="#">Delete</a>';
-                                    echo '<a class="dropdown-item" href="#">Statistics</a>';
+                                    echo '<a class="dropdown-item" href="add.php">Add</a>';
+                                    echo '<a class="dropdown-item" href="update.php">Update</a>';
+                                    echo '<a class="dropdown-item" href="delete.php">Delete</a>';
+                                    echo '<a class="dropdown-item" href="stats.php">Statistics</a>';
                                 }
                                 else
                                 {
-                                    echo '<a class="dropdown-item" href="#">Log In</a>';
+                                    echo '<a class="dropdown-item" href="user.php">Log In</a>';
                                 }
                             
                             ?>
@@ -138,7 +151,7 @@
         </nav>
         
         <div class="jumbotron">
-          <h1> CSUMB Animal Shelter</h1>
-          <h2> The "official" animal adoption website of CSUMB </h2>
+          <h1>Manga Mart</h1>
+          <h2> Home to all your favorites </h2>
         </div>
         
