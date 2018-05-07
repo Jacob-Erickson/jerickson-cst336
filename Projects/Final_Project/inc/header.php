@@ -4,7 +4,7 @@
 
     include("funcs/phpFunctions.php");
     
-    if(isset($_POST['logout']))
+    if(isset($_POST['logger']))
     {
         unset($_SESSION['user']);
     }
@@ -77,21 +77,47 @@
     <body>
         
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="http://csumb.edu">CSUMB</a>
+            <a class="navbar-brand" href="http://csumb.edu">Manga Mart</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-            <li id="home" class="nav-item">
-            <a id="homeLink" class="nav-link" href="index.php">Home <span class="sr-only"></span></a>
-            </li>
-            <li id="adopt" class="nav-item">
-            <a id="adoptLink" class="nav-link" href="pets.php">Adoption</a>
-            </li>
-            <li id="about" class="nav-item">
-            <a id="aboutLink" class="nav-link" href="about.php">About Us</a>
-            </ul>
+                <ul class="navbar-nav">
+                    <li id="home" class="nav-item">
+                        <a id="homeLink" class="nav-link" href="index.php">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li id="adopt" class="nav-item">
+                        <a id="adoptLink" class="nav-link" href="pets.php">Adoption</a>
+                    </li>
+                    <li id="about" class="nav-item">
+                        <a id="aboutLink" class="nav-link" href="about.php">About Us</a>
+                    </li>
+                    <li class="">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style='z-index: -1;'>
+                            Admin
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <?php
+                            
+                                if(!isset($_SESSION['user']))
+                                {
+                                    echo '<a class="dropdown-item" href="#">User</a>';
+                                    echo '<hr />';
+                                    echo '<a class="dropdown-item" href="#">Add</a>';
+                                    echo '<a class="dropdown-item" href="#">Update</a>';
+                                    echo '<a class="dropdown-item" href="#">Delete</a>';
+                                    echo '<a class="dropdown-item" href="#">Statistics</a>';
+                                }
+                                else
+                                {
+                                    echo '<a class="dropdown-item" href="#">Log In</a>';
+                                }
+                            
+                            ?>
+
+                        </div>
+                    </li>
+                </ul>
             </div>
         </nav>
         
