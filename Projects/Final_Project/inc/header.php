@@ -92,7 +92,7 @@
                     <li id="about" class="nav-item">
                         <a id="aboutLink" class="nav-link" href="about.php">About Us</a>
                     </li>
-                    <li class="">
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style='z-index: -1;'>
                             Admin
                         </a>
