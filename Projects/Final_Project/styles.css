@@ -47,4 +47,10 @@ td
 .listing
 {
     background-color: rgba(192, 192, 192, 0.5);
+    border-right: solid black;
+}
+
+.listing:not(.right)
+{
+    border-right: solid black;
 }

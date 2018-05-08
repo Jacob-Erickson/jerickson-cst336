@@ -93,7 +93,6 @@
             <h1>Catalog</h1>
             
             <div id="fullCatalog"></div>
-            
         </main>
        
         <?php

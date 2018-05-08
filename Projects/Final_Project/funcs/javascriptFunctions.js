@@ -71,22 +71,23 @@ function displayTable()
                 data: { "method": "all" },
                 success: function(data,status) {
                     
-                    $("#fullCatalog").append("<table>");
-                    $("#fullCatalog").append("<tr><th>title</th><th>author</th><th>description</th><th>price</th><th>demographic</th><th>genres</th></tr>");
+                    var htmlstr = "<table><tr><th>title</th><th>author</th><th>description</th><th>price</th><th>demographic</th><th>genres</th></tr>";
                     
                     for(var i = 0; i < data.length; i++)
                     {
-                        $("#fullCatalog").append("<tr>");
-                        $("#fullCatalog").append("<td class='listing left'>" + data[i].title + "</td>");
-                        $("#fullCatalog").append("<td class='listing'>" + data[i].firstName + " " + data[i].lastName + "</td>");
-                        $("#fullCatalog").append("<td class='listing'>" + data[i].description + "</td>");
-                        $("#fullCatalog").append("<td class='listing'>" + data[i].price + "</td>");
-                        $("#fullCatalog").append("<td class='listing'>" + data[i].demoName + "</td>");
-                        $("#fullCatalog").append("<td class='listing'>" + data[i].genre_1 + "<br />" + data[i].genre_2 + "<br />" + data[i].genre_3 + "<br />" + "</td>");
-                        $("#fullCatalog").append("<td class='listing'><img src='" + data[i].itemImage + "' /></td>");
-                        $("#fullCatalog").append("<td class='listing right'><form method='post'><input type='hidden' value='" + data.title + "'/><button class= 'btn' type'submit'>Add to Cart</button></form>");
-                        $("#fullCatalog").append("</tr>");
+                        htmlstr += "<tr>";
+                        htmlstr += "<td class='listing left'>" + data[i].title + "</td>";
+                        htmlstr += "<td class='listing'>" + data[i].firstName + " " + data[i].lastName + "</td>";
+                        htmlstr += "<td class='listing'>" + data[i].description + "</td>";
+                        htmlstr += "<td class='listing'>" + data[i].price + "</td>";
+                        htmlstr += "<td class='listing'>" + data[i].demoName + "</td>";
+                        htmlstr += "<td class='listing'>" + data[i].genre_1 + "<br />" + data[i].genre_2 + "<br />" + data[i].genre_3 + "<br />" + "</td>";
+                        htmlstr += "<td class='listing'><img src='" + data[i].itemImage + "' /></td>";
+                        htmlstr += "<td class='listing right'><form><input type='hidden' name='item' value='" + data[i].title + "' ></input><input id='addCart" + data[i].title.split(' ').join('+') + "' class='btn' type='submit' value='Add to Cart' /></form>";
+                        htmlstr += "</tr>";
                     }
+                    
+                    $("#fullCatalog").append(htmlstr);
                     
                     $("#fullCatalog").append("</table>");
                     
@@ -98,4 +99,44 @@ function displayTable()
             });//ajax
             
             return true;
+}
+function docReady()
+{
+    /*
+        var current = window.location.href.split('/').pop();
+        current = current.split('?')[0];
+        */
+            if(/*current == $("#homeLink").attr('href')*/true)
+            {
+                seedBlankSelects("#demographics", "demo", true);
+                seedBlankSelects("#genre", "genre", true);
+                $("#home").addClass("active");
+                displayTable();
+                
+                $("#demographics").change(function (){
+                    
+                    $("#demoInfo").children().hide();
+                    $("#" + $("#demographics").val() + "Info").show();
+                    
+                });
+                
+                $("#genre").change(function (){
+                    
+                    $("#genreInfo").children().hide();
+                    $("#" + $("#genre").val() + "Info").show();
+                    
+                });
+            }
+            else if(current == $("#adoptLink").attr('href'))
+            {
+                $("#adopt").addClass("active");
+            }
+            else if(current == $("#aboutLink").attr('href'))
+            {
+                $("#about").addClass("active");
+            }
+}
+function addCartItem()
+{
+    
 }

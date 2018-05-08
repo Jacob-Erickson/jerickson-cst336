@@ -32,38 +32,8 @@
 
     $(document).ready(function(){//start document ready
         
-        var current = window.location.href.split('/').pop();
-        current = current.split('?')[0];
+        docReady();
         
-            if(current == $("#homeLink").attr('href'))
-            {
-                seedBlankSelects("#demographics", "demo", true);
-                seedBlankSelects("#genre", "genre", true);
-                $("#home").addClass("active");
-                displayTable();
-                
-                $("#demographics").change(function (){
-                    
-                    $("#demoInfo").children().hide();
-                    $("#" + $("#demographics").val() + "Info").show();
-                    
-                });
-                
-                $("#genre").change(function (){
-                    
-                    $("#genreInfo").children().hide();
-                    $("#" + $("#genre").val() + "Info").show();
-                    
-                });
-            }
-            else if(current == $("#adoptLink").attr('href'))
-            {
-                $("#adopt").addClass("active");
-            }
-            else if(current == $("#aboutLink").attr('href'))
-            {
-                $("#about").addClass("active");
-            }
         /*
         $(".petLink").click(function(){//start link
         
