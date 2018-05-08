@@ -18,6 +18,7 @@ table
     margin-right: 5%;
     border-spacing: 0 2em;
     border-collapse: separate;
+    table-layout: fixed;
 }
 tr
 {
