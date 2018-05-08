@@ -76,14 +76,14 @@ function displayTable()
                     for(var i = 0; i < data.length; i++)
                     {
                         htmlstr += "<tr>";
-                        htmlstr += "<td class='listing left'><span>" + data[i].title + "</td>";
+                        htmlstr += "<td class='listing left' style='max-width: 10%;'><img src='" + data[i].itemImage + "' /></td>";
+                        htmlstr += "<td class='listing'><span style='margin-left: 2%;'>" + data[i].title + "</td>";
                         htmlstr += "<td class='listing'><span>" + data[i].firstName + " " + data[i].lastName + "</td>";
-                        htmlstr += "<td class='listing'><span>" + data[i].description + "</td>";
+                        htmlstr += "<td class='listing' style='overflow: hidden;'><span>" + data[i].description + "</td>";
                         htmlstr += "<td class='listing'><span>$" + data[i].price + "</td>";
                         htmlstr += "<td class='listing'><span>" + data[i].demoName + "</td>";
                         htmlstr += "<td class='listing'><span>" + data[i].genre_1 + "<br />" + data[i].genre_2 + "<br />" + data[i].genre_3 + "<br />" + "</td>";
-                        htmlstr += "<td class='listing'><img src='" + data[i].itemImage + "' /></td>";
-                        htmlstr += "<td class='listing right'><form><input type='hidden' name='item' value='" + data[i].title + "' ></input><input id='addCart" + data[i].title.split(' ').join('+') + "' class='btn' type='submit' value='Add to Cart' /></form>";
+                        htmlstr += "<td class='listing right' style='width: 10%;'><form><input type='hidden' name='item' value='" + data[i].title + "' ></input><input id='addCart" + data[i].title.split(' ').join('+') + "' class='btn' type='submit' value='Add to Cart' /></form>";
                         htmlstr += "</tr>";
                     }
                     
