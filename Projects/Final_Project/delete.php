@@ -2,134 +2,48 @@
 
     session_start();
 
-    include "functions.php";
+    include "inc/header.php";
     
-    $conn = getDatabaseConnection("ottermart");
-    
-    seedHead();
-    
-    seedNav();
-    
-    echo "<main>";
-    unset($_POST['delete']);
-    
-    if(isset($_SESSION['user']))
+    if(!isset($_SESSION['user']))
     {
-        echo "<h1>";
-        echo "The following catlog items can be deleted: ";
-        echo "</h1>";
-        echo "<br /><br />";
-        if(empty($_POST))
-        {
-            $everything = getCodeResults("SELECT * FROM om_product NATURAL JOIN om_category;", $conn);
-            echo "<table id='removal'>";
-            echo "<tr>";
-            echo "<th>";
-            echo "Product Name";
-            echo "</th>";
-            echo "<th>";
-            echo "Product Description";
-            echo "</th>";
-            echo "<th>";
-            echo "Product Image URL";
-            echo "</th>";
-            echo "<th>";
-            echo "Price";
-            echo "</th>";
-            echo "<th>";
-            echo "Category";
-            echo "</th>";
-            echo "</tr>";
-            foreach($everything as $value)
-            {
-                echo "<tr>";
-                echo "<form method='post'>";
-                echo "<input type='hidden' name='productId' value='";
-                echo $value['productId'];
-                echo "' />";
-                echo "<td>";
-                echo "<input type='hidden' name='productName' value='";
-                echo $value['productName'];
-                echo "' />";
-                echo $value['productName'];
-                echo "</td>";
-                
-                echo "<td>";
-                echo $value['productDescription'];
-                echo "</td>";
-                
-                echo "<td>";
-                echo $value['productImage'];
-                echo "</td>";
-                
-                echo "<td>";
-                echo $value['price'];
-                echo "</td>";
-                
-                echo "<td>";
-                echo $value['catName'];
-                echo "</td>";
-                
-                echo "<td>";
-                echo "<input type='submit' value='Delete Item' />";
-                echo "</td>";
-                echo "</tr>";
-                echo "</form>";
-            }
-            echo "</table>";
-        }
-        else
-        {
-            if($_POST['confirm'] != 'Yes')
-            {
-                echo "Are you sure you want to delete \"" . $_POST['productName'] . "\"?";
-                
-                echo "<br />";
-                
-                echo "<form method='post'>";
-                echo "<input type='hidden' name='productId' value='";
-                echo $_POST['productId'];
-                echo "' />";
-                
-                echo "<input type='hidden' name='productName' value='";
-                echo $_POST['productName'];
-                echo "' />";
-                
-                echo "<input type='submit' name='confirm' value='Yes' />";
-                echo "</form>";
-                
-                echo "<form method='post' action='delete.php'>";
-                
-                echo "<input type='hidden' name='productName' value='";
-                echo $_POST['productName'];
-                echo "' />";
-                
-                echo "<input type='submit' name='confirm' value='No' />";
-                echo "</form>";
-            }
-            else
-            {
-                $code = "DELETE FROM om_product WHERE productId = " . $_POST['productId'] . ";";
-                
-                echo $code;
-                
-                runCode($code, $conn);
-                
-                echo "Successfully Deleted \"" . $_POST['productName'] . "\"";
-                echo "<br />";
-                echo "<form method='post' action='delete.php'>";
-                echo "<button name='delete' value='true'>";
-                echo "Delete Another";
-                echo "</button>";
-                echo "</form>";
-                $_POST = array();
-            }
-        }
+        echo '<h1>You are not logged in.</h1>';
+        echo '<h2>If you want to modify your account please first log in.</h2>';
     }
     else
     {
-        echo "<h1 style='color: red;'>You must be logged in to add items</h1>";
-    }
-    echo "</main>";
 
+?>
+
+    <h1>Delete</h1>
+    
+    <br />
+    
+    <form method="post">
+        <input type="hidden" name="logger" value="false" />
+        <input class="btn btn-primary" type="submit" value="Log Out"/>
+    </form>
+    
+    <br />
+    <br />
+    
+    <h2>Change Username and/or Password</h2>
+    
+    <span style="color: red;">* at the moment you cannot change your username or password</span>
+    
+    <br />
+    
+    <form method='post' onsubmit="return false">
+        New Username: <input id="username" type="text" name="username"/><br /><br />
+        New Password: <input id="password" type="text" name="password"/><br /><br />
+        <input class="btn btn-primary" type="submit" value="Change"/>
+        <br />
+        <span id="error" style="color: red;"></span>
+        <br />
+    </form>
+
+<?php
+
+    }
+    include "inc/footer.php";
+    
 ?>

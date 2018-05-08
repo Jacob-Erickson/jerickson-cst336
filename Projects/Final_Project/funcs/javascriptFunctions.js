@@ -60,7 +60,11 @@ function seedBlankSelects(selectID, fieldType, info)
             
             return true;
 }
-
+function addCartItem(name)
+{
+    alert(name);
+    return false;
+}
 function displayTable()
 {
     $.ajax({
@@ -71,7 +75,7 @@ function displayTable()
                 data: { "method": "all" },
                 success: function(data,status) {
                     
-                    var htmlstr = "<table><tr><th>title</th><th>author</th><th>description</th><th>price</th><th>demographic</th><th>genres</th></tr>";
+                    var htmlstr = "<table id='all'><tr><th>title</th><th>author</th><th>description</th><th>price</th><th>demographic</th><th>genres</th></tr>";
                     
                     for(var i = 0; i < data.length; i++)
                     {
@@ -83,13 +87,15 @@ function displayTable()
                         htmlstr += "<td class='listing'><span>$" + data[i].price + "</td>";
                         htmlstr += "<td class='listing'><span>" + data[i].demoName + "</td>";
                         htmlstr += "<td class='listing'><span>" + data[i].genre_1 + "<br />" + data[i].genre_2 + "<br />" + data[i].genre_3 + "<br />" + "</td>";
-                        htmlstr += "<td class='listing right' style='width: 10%;'><form><input type='hidden' name='item' value='" + data[i].title + "' ></input><input id='addCart" + data[i].title.split(' ').join('+') + "' class='btn' type='submit' value='Add to Cart' /></form>";
+                        htmlstr += "<td class='listing right' style='width: 10%;'><form onsubmit='return addCartItem('" + data[i].title.split(' ').join('+') + "')'>";
+                        htmlstr += "<input type='hidden' name='item' value='" + data[i].title + "' id='" + data[i].title.split(' ').join('+') + "' />";
+                        htmlstr += "<input id='addCart" + data[i].title.split(' ').join('+') + "' class='btn' type='submit' value='Add to Cart' /></form>";
                         htmlstr += "</tr>";
                     }
                     
-                    $("#fullCatalog").append(htmlstr);
+                    htmlstr += "</table>";
                     
-                    $("#fullCatalog").append("</table>");
+                    $("#fullCatalog").append(htmlstr);
                     
                 },
                 complete: function(data,status) { //optional, used for debugging purposes
@@ -135,8 +141,57 @@ function docReady()
             {
                 $("#about").addClass("active");
             }
+            
+            
+            
+            //for modal showing
+            $("#log_in").click(function(){//start link
+        
+                $('#logInModal').modal("show");
+                
+            });//end link
 }
-function addCartItem()
+function logIn()
 {
+    var result = false;
     
+    $("#error").html("");
+    
+    if(($("#username").val() == "") || ($("#password").val() == ""))
+    {
+        $("#error").append("*cannot log in, one or more fields are blank");
+    }
+    else
+    {
+        $.ajax({//start ajax
+            type: "POST",
+            url: "APIs/loginProcessAPI.php",
+            dataType: "JSON",
+            data: { "username": $("#username").val(),
+                    "password": $("#password").val() },
+            success: function(data,status) {
+                
+                if(!data)
+                {
+                    $("#error").append("*cannot log in, one or more fields are incorrect");
+                }
+                else
+                {//sends user to the same page minus any submittals
+                    var current = window.location.href.split('/').pop();
+                    current = current.split('#')[0];
+                    current = current.split('?')[0];
+                    
+                    window.location.href = current;
+                }
+                
+            },
+            complete: function(data,status) { //optional, used for debugging purposes
+                //alert(status);
+                
+            }
+        
+        });//end ajax
+    }
+    
+    return result;
 }

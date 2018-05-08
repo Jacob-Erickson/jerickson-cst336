@@ -40,20 +40,20 @@
         $results->execute();
     }
     
-    $conn = getDatabaseConnection("ottermart");
+    $conn = getDatabaseConnection("mangaMart");
     
     $username = $_POST['username'];
     $password = sha1($_POST['password']);
     
     $sql = "SELECT *
-            FROM om_admin
+            FROM admin
             WHERE username = :username
             AND password = :password";
     
     $stmt = $conn->prepare($sql);
     $stmt->execute( array(':username' => $username,
-                           ':password' => $password));
-    $record = $stmt->fetchAll(PDO::FETCH_ASSOC);
+                          ':password' => $password));
+    $record = $stmt->fetch(PDO::FETCH_ASSOC);
     
     
     if(empty($record))
@@ -62,7 +62,7 @@
     }
     else
     {
-        $_SESSION['user'] = username;
+        $_SESSION['user'] = $username;
         echo json_encode($record);
     }
     

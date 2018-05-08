@@ -69,6 +69,17 @@
                 $records = getCodeResults($sql, $conn);
                 break;
             }
+        case 'addAuthor':
+            {
+                $code_pt_1 = "INSERT INTO om_product (";
+                $code_pt_2 = ") VALUES (";
+                $sql = "SELECT *
+                        FROM catalog
+                        NATURAL JOIN demographics
+                        NATURAL JOIN authors;";
+                $records = getCodeResults($sql, $conn);
+                break;
+            }
         default:
             {
                 break;

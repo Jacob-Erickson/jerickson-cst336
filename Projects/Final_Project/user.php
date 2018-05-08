@@ -14,38 +14,12 @@
 
 ?>
 
-    <h1>Add</h1>
+    <h1>User Controls</h1>
     
     <br />
     
     <form method="post">
-    <table>
-        <tr>
-            <th>
-                First Name
-            </th>
-            <th>
-                Last Name
-            </th>
-            <th>
-                Gender
-            </th>
-            <th>
-                Birth Date (yyyy-mm-dd)
-            </th>
-            <th>
-                Bio
-            </th>
-            <th>
-                Author Image
-            </th>
-        </tr>
-        <tr>
-            <td>
-                <input type="input" name="firstName"></input>
-            </td>
-        </tr>
-    </table>
+        <input type="hidden" name="logger" value="false" />
         <input class="btn btn-primary" type="submit" value="Log Out"/>
     </form>
     
@@ -56,6 +30,7 @@
     
     <span style="color: red;">* at the moment you cannot change your username or password</span>
     
+    <br />
     <br />
     
     <form method='post' onsubmit="return false">

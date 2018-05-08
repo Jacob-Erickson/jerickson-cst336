@@ -1,7 +1,5 @@
 <?php
 
-    session_start();
-
     include("funcs/phpFunctions.php");
     
     if(isset($_POST['logger']))
@@ -34,34 +32,6 @@
         
         docReady();
         
-        /*
-        $(".petLink").click(function(){//start link
-        
-            $('#petModal').modal("show");
-            $("#petInfo").html("<img src='img/loading.gif' />");
-                
-            $.ajax({//start ajax
-                type: "GET",
-                url: "api/getPetInfo.php",
-                dataType: "JSON",
-                data: { "id": $(this).attr("id") },
-                success: function(data,status) {
-                    
-                    $("#petModalLabel").html(data.name);
-                    $("#petInfo").html("<img src='img/" + data.pictureURL + "' style='float: left;' />");
-                    $("#petInfo").append("<h5 style='text-align: left;'><strong>Age: </strong>" + data.age + "</h5><hr />");
-                    $("#petInfo").append("<h5 style='text-align: left;'><strong>Breed:</strong><br />" + data.breed + "</h5><hr />");
-                    $("#petInfo").append("<h5 style='text-align: left;'><strong>About Me:</strong><br />" + data.description + "<br />");
-                    
-                },
-                complete: function(data,status) { //optional, used for debugging purposes
-                    //alert(status);
-                }
-            
-            });//end ajax
-           
-        });//end link
-        */
     });//end document ready
 
 </script>
@@ -110,7 +80,7 @@
                                 }
                                 else
                                 {
-                                    echo '<a class="dropdown-item" href="user.php">Log In</a>';
+                                    echo '<a id="log_in" class="dropdown-item" href="#">Log In</a>';
                                 }
                             
                             ?>
@@ -126,3 +96,32 @@
           <h2> Home to all your favorites </h2>
         </div>
         
+        
+        <!-- Modal -->
+        <div class="modal fade" id="logInModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <strong><h2 class="modal-title" id="modalLabel">Log In</h2></strong>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="modalMain">
+                            <form method='post' onsubmit="return logIn()">
+                                Username: <input id="username" type="text" name="username"/><br /><br />
+                                Password: <input id="password" type="text" name="password"/><br /><br />
+                                <input class="btn btn-primary" type="submit" value="Log In"/>
+                                <br />
+                                <span id="error" style="color: red;"></span>
+                                <br />
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
