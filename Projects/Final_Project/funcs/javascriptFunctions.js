@@ -108,12 +108,12 @@ function displayTable()
 }
 function docReady()
 {
-    /*
         var current = window.location.href.split('/').pop();
         current = current.split('?')[0];
-        */
-            if(/*current == $("#homeLink").attr('href')*/true)
+        
+            if(current == $("#homeLink").attr('href'))
             {
+                $("#homeLink").addClass("active");
                 seedBlankSelects("#demographics", "demo", true);
                 seedBlankSelects("#genre", "genre", true);
                 $("#home").addClass("active");
@@ -133,15 +133,16 @@ function docReady()
                     
                 });
             }
-            else if(current == $("#adoptLink").attr('href'))
+            else if(current == $("#addLink").attr('href'))
             {
-                $("#adopt").addClass("active");
-            }
+                $("#adminLink").addClass("active");
+                $("#addLink").addClass("active");
+            }/*
             else if(current == $("#aboutLink").attr('href'))
             {
                 $("#about").addClass("active");
             }
-            
+            */
             
             
             //for modal showing

@@ -1,3 +1,4 @@
+/*                                        header css         */
 body
 {
     text-align: center;
@@ -10,7 +11,10 @@ body
 	color: black;
 	text-decoration: none;
 }
-#all
+/*End of header css
+***************************************************************************************
+                                            Beginning of index.php css             */
+#index table
 {
     text-align: left;
     width: 90%;
@@ -19,37 +23,86 @@ body
     border-spacing: 0 2em;
     border-collapse: separate;
 }
-#all tr
+#index table tr
 {
     margin-bottom: 10%;
     border-spacing: 0 8em;
     border-collapse: separate;
     border: 1px solid black;
 }
-#all tr td
+#index table tr td
 {
     border-spacing: 0 2em;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
-.left
+#index .left
 {
     border-left: 1px solid black;
     border-radius: 15px 0px 0px 15px;
 }
-.right
+#index .right
 {
     border-right: 1px solid black;
     border-radius: 0px 15px 15px 0px;
 }
 
-.listing
+#index .listing
 {
     background-color: rgba(192, 192, 192, 0.5);
     border-right: ridge;
     padding: 1%;
 }
-#all td span
+#index td span
 {
     padding: 1%;
 }
+/*                                                                End of index.php css
+***************************************************************************************
+                                                            Beginning of add.php css*/
+#add table
+{
+    text-align: left;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-spacing: 0 2em;
+    border-collapse: separate;
+}
+#add table tr
+{
+    margin-bottom: 10%;
+    border-spacing: 0 8em;
+    border-collapse: separate;
+    border: 1px solid black;
+}
+#add table tr td
+{
+    border-spacing: 0 2em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#add .left
+{
+    border-left: 1px solid black;
+    border-radius: 15px 0px 0px 15px;
+}
+#add .right
+{
+    border-right: 1px solid black;
+    border-radius: 0px 15px 15px 0px;
+}
+
+#add .listing
+{
+    background-color: rgba(192, 192, 192, 0.5);
+    border-right: ridge;
+    padding: 1%;
+}
+#add td span
+{
+    padding: 1%;
+}
+/*                                                                End of index.php css
+***************************************************************************************
+                                                            Beginning of add.php css*/

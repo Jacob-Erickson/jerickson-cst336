@@ -3,7 +3,12 @@
     session_start();
 
     include "inc/header.php";
-    
+?>
+
+    <main id="add">
+
+<?php
+
     if(!isset($_SESSION['user']))
     {
         echo '<h1>You are not logged in.</h1>';
@@ -18,7 +23,7 @@
     
     <br />
     
-    <form method="post">
+    <form method='get' id='authorForm'>
     <table>
         <tr>
             <th>
@@ -31,7 +36,7 @@
                 Gender
             </th>
             <th>
-                Birth Date (yyyy-mm-dd)
+                Birth Date
             </th>
             <th>
                 Bio
@@ -42,12 +47,31 @@
         </tr>
         <tr>
             <td>
-                <input type="input" name="firstName"></input>
+                <input type='input' name='firstName' form='authorForm'></input>
+            </td>
+            <td>
+                <input type='input' name='lastName' form='authorForm'></input>
+            </td>
+            <td>
+                <select name='gender' form='authorForm'>
+                    <option value='F'>F</option>
+                    <option value='M'>M</option>
+                </select>
+            </td>
+            <td>
+                <input type='date' name='date' pattern='[0-9]{4}-[0-9]{2}-[0-9]{2}' value='' form='authorForm'/>
+            </td>
+            <td>
+                <input type='text' name='bio' form='authorForm'/>
+            </td>
+            <td>
+                <input type='text' name='imageURL' form='authorForm'/>
+            </td>
+            <td>
+                <input class="btn btn-primary" type="submit" value="Add" form='authorForm'/>
             </td>
         </tr>
     </table>
-        <input class="btn btn-primary" type="submit" value="Log Out"/>
-    </form>
     
     <br />
     <br />
@@ -66,6 +90,8 @@
         <span id="error" style="color: red;"></span>
         <br />
     </form>
+    
+    </main>
 
 <?php
 

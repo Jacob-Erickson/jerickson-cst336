@@ -63,7 +63,7 @@
                         <a id="aboutLink" class="nav-link" href="about.php">About Us</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style='z-index: -1;'>
+                        <a id="adminLink" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style='z-index: -1;'>
                             Admin
                         </a>
                         <div class="dropdown-menu pull-left" aria-labelledby="navbarDropdownMenuLink">
@@ -71,12 +71,12 @@
                             
                                 if(isset($_SESSION['user']))
                                 {
-                                    echo '<a class="dropdown-item" href="user.php">User</a>';
+                                    echo '<a id="userLink" class="dropdown-item" href="user.php">User</a>';
                                     echo '<hr />';
-                                    echo '<a class="dropdown-item" href="add.php">Add</a>';
-                                    echo '<a class="dropdown-item" href="update.php">Update</a>';
-                                    echo '<a class="dropdown-item" href="delete.php">Delete</a>';
-                                    echo '<a class="dropdown-item" href="stats.php">Statistics</a>';
+                                    echo '<a id="addLink" class="dropdown-item" href="add.php">Add</a>';
+                                    echo '<a id="updateLink" class="dropdown-item" href="update.php">Update</a>';
+                                    echo '<a id="deleteLink" class="dropdown-item" href="delete.php">Delete</a>';
+                                    echo '<a id="statsLink" class="dropdown-item" href="stats.php">Statistics</a>';
                                 }
                                 else
                                 {
