@@ -13,9 +13,9 @@ body
 table
 {
     text-align: left;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     border-spacing: 0 2em;
     border-collapse: separate;
 }
@@ -47,7 +47,8 @@ td
 .listing
 {
     background-color: rgba(192, 192, 192, 0.5);
-    border-right: solid black;
+    border-right: ridge black;
+    padding: 1%;
 }
 
 .listing:not(.right)

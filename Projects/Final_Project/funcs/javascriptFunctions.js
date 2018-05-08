@@ -79,7 +79,7 @@ function displayTable()
                         htmlstr += "<td class='listing left'>" + data[i].title + "</td>";
                         htmlstr += "<td class='listing'>" + data[i].firstName + " " + data[i].lastName + "</td>";
                         htmlstr += "<td class='listing'>" + data[i].description + "</td>";
-                        htmlstr += "<td class='listing'>" + data[i].price + "</td>";
+                        htmlstr += "<td class='listing'>$" + data[i].price + "</td>";
                         htmlstr += "<td class='listing'>" + data[i].demoName + "</td>";
                         htmlstr += "<td class='listing'>" + data[i].genre_1 + "<br />" + data[i].genre_2 + "<br />" + data[i].genre_3 + "<br />" + "</td>";
                         htmlstr += "<td class='listing'><img src='" + data[i].itemImage + "' /></td>";
