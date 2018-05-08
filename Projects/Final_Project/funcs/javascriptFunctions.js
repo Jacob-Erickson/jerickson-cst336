@@ -76,12 +76,12 @@ function displayTable()
                     for(var i = 0; i < data.length; i++)
                     {
                         htmlstr += "<tr>";
-                        htmlstr += "<td class='listing left'>" + data[i].title + "</td>";
-                        htmlstr += "<td class='listing'>" + data[i].firstName + " " + data[i].lastName + "</td>";
-                        htmlstr += "<td class='listing'>" + data[i].description + "</td>";
-                        htmlstr += "<td class='listing'>$" + data[i].price + "</td>";
-                        htmlstr += "<td class='listing'>" + data[i].demoName + "</td>";
-                        htmlstr += "<td class='listing'>" + data[i].genre_1 + "<br />" + data[i].genre_2 + "<br />" + data[i].genre_3 + "<br />" + "</td>";
+                        htmlstr += "<td class='listing left'><span>" + data[i].title + "</td>";
+                        htmlstr += "<td class='listing'><span>" + data[i].firstName + " " + data[i].lastName + "</td>";
+                        htmlstr += "<td class='listing'><span>" + data[i].description + "</td>";
+                        htmlstr += "<td class='listing'><span>$" + data[i].price + "</td>";
+                        htmlstr += "<td class='listing'><span>" + data[i].demoName + "</td>";
+                        htmlstr += "<td class='listing'><span>" + data[i].genre_1 + "<br />" + data[i].genre_2 + "<br />" + data[i].genre_3 + "<br />" + "</td>";
                         htmlstr += "<td class='listing'><img src='" + data[i].itemImage + "' /></td>";
                         htmlstr += "<td class='listing right'><form><input type='hidden' name='item' value='" + data[i].title + "' ></input><input id='addCart" + data[i].title.split(' ').join('+') + "' class='btn' type='submit' value='Add to Cart' /></form>";
                         htmlstr += "</tr>";

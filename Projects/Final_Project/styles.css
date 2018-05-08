@@ -31,7 +31,6 @@ td
     border-spacing: 0 2em;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    padding: 1%;
 }
 .left
 {
@@ -47,11 +46,10 @@ td
 .listing
 {
     background-color: rgba(192, 192, 192, 0.5);
-    border-right: ridge black;
+    border-right: ridge;
     padding: 1%;
 }
-
-.listing:not(.right)
+td span
 {
-    border-right: solid black;
+    padding: 1%;
 }
