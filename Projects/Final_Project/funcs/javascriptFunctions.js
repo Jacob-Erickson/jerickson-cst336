@@ -76,7 +76,7 @@ function displayTable()
                     for(var i = 0; i < data.length; i++)
                     {
                         htmlstr += "<tr>";
-                        htmlstr += "<td class='listing left' style='max-width: 10%;'><img src='" + data[i].itemImage + "' style='display: block; width: 180px; height: auto;'/></td>";
+                        htmlstr += "<td class='listing left' style='width: 180px;'><img src='" + data[i].itemImage + "' style='display: block; width: 180px; height: auto;'/></td>";
                         htmlstr += "<td class='listing'><span style='margin-left: 2%;'>" + data[i].title + "</td>";
                         htmlstr += "<td class='listing'><span>" + data[i].firstName + " " + data[i].lastName + "</td>";
                         htmlstr += "<td class='listing' style='overflow: hidden;'><span>" + data[i].description + "</td>";
