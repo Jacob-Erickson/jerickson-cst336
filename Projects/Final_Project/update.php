@@ -20,10 +20,10 @@
     {
 
 ?>
-      <h1>Add to Database</h1>
+      <h1>Update Items in Database</h1>
       <br />
       <h5>
-        Add: 
+        Update item in: 
         <select name='type' id='type'>
             <option>Select One</option>
             <option>Genre</option>
@@ -34,50 +34,16 @@
       </h5>
     </div>
     
-    <main id="add">
-
+    <main id="update">
+        
     <br />
     
     <div id="Author">
-        <form method='get' id='authorForm' onsubmit='return addAuthor()'></form>
-        <table>
+        <table id="authorTable">
             <tr>
                 <th>
-                    <h2>Add an Author</h2>
+                    <h2>Update an Author</h2>
                 </th>
-            </tr>
-            <tr>
-                <td>
-                    <strong>First Name</strong><br />
-                    <input type='input' name='firstName' form='authorForm'></input>
-                </td>
-                <td>
-                    <strong>Last Name</strong><br />
-                    <input type='input' name='lastName' form='authorForm'></input>
-                </td>
-                <td>
-                    <strong>Gender</strong><br />
-                    <select name='gender' form='authorForm'>
-                        <option value='M'>Male</option>
-                        <option value='F'>Female</option>
-                    </select>
-                </td>
-                <td>
-                    <strong>Date of Birth</strong><br />
-                    <input type='date' name='birth' pattern='[0-9]{4}-[0-9]{2}-[0-9]{2}' value='' form='authorForm'/>
-                </td>
-                <td>
-                    <strong>Bio</strong><br />
-                    <input type='text' name='bio' form='authorForm'/>
-                </td>
-                <td>
-                    <strong>Author Image</strong><br />
-                    <input type='text' placeholder='http://www.example.com' name='authorImage' form='authorForm'/>
-                </td>
-                <td>
-                    <br />
-                    <input class="btn btn-primary" type="submit" value="Add" form='authorForm'/>
-                </td>
             </tr>
         </table>
     </div>
@@ -198,6 +164,7 @@
             </tr>
         </table>
     </div>
+    
     <br />
     <br />
     <div id="success">

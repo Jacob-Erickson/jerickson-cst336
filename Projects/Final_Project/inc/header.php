@@ -16,7 +16,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> CSUMB: Pet Shelter </title>
+        <title> Manga Mart </title>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
@@ -90,12 +90,6 @@
                 </ul>
             </div>
         </nav>
-        
-        <div class="jumbotron">
-          <h1>Manga Mart</h1>
-          <h2> Home to all your favorites </h2>
-        </div>
-        
         
         <!-- Modal -->
         <div class="modal fade" id="logInModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

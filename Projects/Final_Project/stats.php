@@ -13,13 +13,13 @@
     if(!isset($_SESSION['user']))
     {
         echo '<h1>You are not logged in.</h1>';
-        echo '<h2>If you want to change your account details please first log in.</h2>';
+        echo '<h2>If you want to view catalog statistics please first log in.</h2>';
         echo '</div>';
     }
     else
     {
 ?>
-    <h1>User Controls</h1>
+    <h1>Stats</h1>
     
     </div>
     

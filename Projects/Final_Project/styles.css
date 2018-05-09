@@ -60,12 +60,15 @@ body
 /*                                                                End of index.php css
 ***************************************************************************************
                                                             Beginning of add.php css*/
+#add div
+{
+    display: none;
+}
 #add table
 {
     text-align: left;
     width: 90%;
     margin-left: 5%;
-    margin-right: 5%;
     border-spacing: 0 2em;
     border-collapse: separate;
 }
@@ -79,8 +82,7 @@ body
 #add table tr td
 {
     border-spacing: 0 2em;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    text-align: center;
 }
 #add .left
 {
@@ -102,6 +104,14 @@ body
 #add td span
 {
     padding: 1%;
+}
+#Author, #Product, #Genre, #Demographic
+{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid black;
+    overflow: scroll;
 }
 /*                                                                End of index.php css
 ***************************************************************************************

@@ -44,6 +44,8 @@
     
     $sql = "";
     
+    $result = [];
+    
     $records;
     
     switch($_GET['method'])
@@ -51,13 +53,25 @@
         case 'demo':
             {
                 $sql = "SELECT * FROM demographics;";
-                $records = getCodeResults($sql, $conn);
+                $result = getCodeResults($sql, $conn);
                 break;
             }
         case 'genre':
             {
                 $sql = "SELECT * FROM genres;";
-                $records = getCodeResults($sql, $conn);
+                $result = getCodeResults($sql, $conn);
+                break;
+            }
+        case 'author':
+            {
+                $sql = "SELECT * FROM authors;";
+                $result = getCodeResults($sql, $conn);
+                break;
+            }
+        case 'product':
+            {
+                $sql = "SELECT * FROM catalog;";
+                $result = getCodeResults($sql, $conn);
                 break;
             }
         case 'all':
@@ -66,18 +80,59 @@
                         FROM catalog
                         NATURAL JOIN demographics
                         NATURAL JOIN authors;";
-                $records = getCodeResults($sql, $conn);
+                $result = getCodeResults($sql, $conn);
                 break;
             }
-        case 'addAuthor':
+        case 'getEverything':
             {
-                $code_pt_1 = "INSERT INTO om_product (";
-                $code_pt_2 = ") VALUES (";
                 $sql = "SELECT *
                         FROM catalog
                         NATURAL JOIN demographics
                         NATURAL JOIN authors;";
                 $records = getCodeResults($sql, $conn);
+                array_push($result, $records);
+                
+                $sql = "SELECT * FROM demographics;";
+                $records = getCodeResults($sql, $conn);
+                array_push($result, $records);
+                
+                $sql = "SELECT * FROM genres;";
+                $records = getCodeResults($sql, $conn);
+                array_push($result, $records);
+                
+                $sql = "SELECT * FROM authors;";
+                $records = getCodeResults($sql, $conn);
+                array_push($result, $records);
+                break;
+            }
+        case 'addAuthor':
+            {
+                $sql .= "INSERT INTO authors (";
+                $sql .= "firstName, lastName, gender, birth, bio, authorImage";
+                $sql .= ") VALUES ('" . $_GET['firstName'] . "', '" . $_GET['lastName'] . "', '" 
+                                     . $_GET['gender'] . "', '" . $_GET['birth'] . "', '" 
+                                     . $_GET['bio'] . "', '" . $_GET['authorImage'] . "');";
+                                     
+                runCode($sql, $conn);
+                break;
+            }
+        case 'updateAuthor':
+            {
+                $sql .= "UPDATE authors SET ";
+                $sql .= "firstName = '" . $_GET['firstName'] . "', 
+                        lastName = '" . $_GET['lastName'] . "', 
+                        gender = '" . $_GET['gender'] . "', 
+                        birth = '" . $_GET['birth'] . "', 
+                        bio = '" . $_GET['bio'] . "', 
+                        authorImage = '" . $_GET['authorImage'] . "' WHERE authorId = " . $_GET['authorId'] . ";";
+                        
+                runCode($sql, $conn);
+                break;
+            }
+        case 'deleteAuthor':
+            {
+                $sql = "DELETE FROM `authors` WHERE `authors`.`authorId` = " . $_GET['authorId'] . ";";
+                runCode($sql, $conn);
                 break;
             }
         default:
@@ -88,13 +143,35 @@
 
     
     
-    if(empty($records))
+    if(empty($result))
     {
-        echo json_encode(false);
+        switch($_GET['method'])
+        {
+            case 'addAuthor':
+                {
+                    echo json_encode(true);
+                    break;
+                }
+            case 'updateAuthor':
+                {
+                    echo json_encode(true);
+                    break;
+                }
+        case 'deleteAuthor':
+            {
+                echo json_encode(true);
+                break;
+            }
+            default:
+                {
+                    echo json_encode(false);
+                    break;
+                }
+        }
     }
     else
     {
-        echo json_encode($records);
+        echo json_encode($result);
     }
 
 ?>

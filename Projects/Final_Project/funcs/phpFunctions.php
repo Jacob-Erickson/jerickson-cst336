@@ -37,6 +37,4 @@
         $results = $database->prepare($code);
         $results->execute();
     }
-    
-
 ?>

@@ -1,0 +1,197 @@
+[09-May-2018 00:07:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(90): runCode(0, Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 00:09:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(90): runCode(0, Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 00:11:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2018' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(90): runCode(2018, Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 00:14:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(90): runCode(0, Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 01:01:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2018' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(92): runCode(2018, Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 01:05:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sdfd' in 'field list'' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(92): runCode('INSERT INTO aut...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 03:31:34 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 104
+[09-May-2018 03:31:44 UTC] PHP Parse error:  syntax error, unexpected 'method' (T_STRING) in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 120
+[09-May-2018 03:32:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''firstName' = 'sdfd', 
+                        'lastName' = 'sd', 
+             ' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(106): runCode('UPDATE authors ...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 03:33:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''firstName' = 'sdfd', 
+                        'lastName' = 'sd', 
+             ' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(106): runCode('UPDATE authors ...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 03:33:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''firstName' = 'sdfd', 
+                        'lastName' = 'sd', 
+             ' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(106): runCode('UPDATE authors ...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 03:34:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''firstName' = 'sdfd', 
+                        'lastName' = 'sd', 
+             ' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(106): runCode('UPDATE authors ...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 03:35:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''firstName' = 'sdfd', 
+                        'lastName' = 'sd', 
+             ' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(107): runCode('UPDATE authors ...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 03:36:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''firstName' = 'sdfd', 
+                        'lastName' = 'sd', 
+             ' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(107): runCode('UPDATE authors ...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 03:36:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''firstName' = 'sdfd', 
+                        'lastName' = 'sd', 
+             ' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(107): runCode('UPDATE authors ...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 03:36:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''firstName' = 'sdfd', 
+                        'lastName' = 'sd', 
+             ' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(107): runCode('UPDATE authors ...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 04:34:00 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 93
+[09-May-2018 04:34:00 UTC] PHP Stack trace:
+[09-May-2018 04:34:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:0
+[09-May-2018 04:34:00 UTC] PHP   2. array_push() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:93
+[09-May-2018 04:34:00 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 97
+[09-May-2018 04:34:00 UTC] PHP Stack trace:
+[09-May-2018 04:34:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:0
+[09-May-2018 04:34:00 UTC] PHP   2. array_push() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:97
+[09-May-2018 04:34:00 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 101
+[09-May-2018 04:34:00 UTC] PHP Stack trace:
+[09-May-2018 04:34:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:0
+[09-May-2018 04:34:00 UTC] PHP   2. array_push() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:101
+[09-May-2018 04:34:00 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 105
+[09-May-2018 04:34:00 UTC] PHP Stack trace:
+[09-May-2018 04:34:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:0
+[09-May-2018 04:34:00 UTC] PHP   2. array_push() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:105
+[09-May-2018 06:05:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(129): runCode('UPDATE authors ...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 06:06:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(129): runCode('UPDATE authors ...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 06:07:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(129): runCode('UPDATE authors ...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 06:08:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(129): runCode('UPDATE authors ...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 06:41:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(129): runCode('UPDATE authors ...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 06:50:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(129): runCode('UPDATE authors ...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 06:50:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(129): runCode('UPDATE authors ...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 06:50:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(129): runCode('UPDATE authors ...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 06:52:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(129): runCode('UPDATE authors ...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 06:52:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(129): runCode('UPDATE authors ...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 06:54:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(129): runCode('UPDATE authors ...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 06:54:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(129): runCode('UPDATE authors ...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40
+[09-May-2018 06:58:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''authors' SET 'firstName' = 'Kazuko', 
+                        'lastName' = 'Fuj' at line 1' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:40
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(40): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(132): runCode('UPDATE 'authors...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 40

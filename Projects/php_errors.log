@@ -779,3 +779,25 @@
 [08-May-2018 07:02:01 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/add.php on line 7
 [08-May-2018 07:02:01 UTC] PHP Stack trace:
 [08-May-2018 07:02:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/add.php:0
+[09-May-2018 02:15:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'managMart'' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/funcs/phpFunctions.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/funcs/phpFunctions.php(19): PDO->__construct('mysql:host=loca...', 'jacob66', 'Dreini10')
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/funcs/phpFunctions.php(43): getDatabaseConnection('managMart')
+#2 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/update.php(39): seedUpdate()
+#3 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/funcs/phpFunctions.php on line 19
+[09-May-2018 02:16:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'managMart'' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/funcs/phpFunctions.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/funcs/phpFunctions.php(19): PDO->__construct('mysql:host=loca...', 'jacob66', 'Dreini10')
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/funcs/phpFunctions.php(43): getDatabaseConnection('managMart')
+#2 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/update.php(39): seedUpdate()
+#3 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/funcs/phpFunctions.php on line 19
+[09-May-2018 02:24:01 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/funcs/phpFunctions.php on line 61
+[09-May-2018 02:24:01 UTC] PHP Stack trace:
+[09-May-2018 02:24:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/update.php:0
+[09-May-2018 02:24:01 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/update.php:5
+[09-May-2018 02:24:21 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/funcs/phpFunctions.php on line 61
+[09-May-2018 02:24:21 UTC] PHP Stack trace:
+[09-May-2018 02:24:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/update.php:0
+[09-May-2018 02:24:21 UTC] PHP   2. include() /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/update.php:5

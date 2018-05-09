@@ -17,7 +17,7 @@ function seedBlankSelects(selectID, fieldType, info)
                         {
                             for(var i = 0; i < data.length; i++)
                             {
-                                $(selectID).append("<option value='" + data[i].demoName + "'>" + data[i].demoName + "</option>");
+                                $(selectID).append("<option value='" + data[i].demoId + "'>" + data[i].demoName + "</option>");
                                 $("#" + fieldType + "Info").append("<div id='" + data[i].demoName + "Info'>" + data[i].orientation + "</div>");
                                 $("#" + data[i].demoName + "Info").hide();
                             }
@@ -26,8 +26,8 @@ function seedBlankSelects(selectID, fieldType, info)
                         {
                             for(var i = 0; i < data.length; i++)
                             {
-                                $(selectID).append("<option value='" + data[i].name + "'>" + data[i].name + "</option>");
-                                $("#" + fieldType + "Info").append("<div id='" + data[i].name + "Info'>" + data[i].genreDescription + "</div>");
+                                $(selectID).append("<option value='" + data[i].genreId + "'>" + data[i].genreName + "</option>");
+                                $("#" + fieldType + "Info").append("<div id='" + data[i].genreId + "Info'>" + data[i].genreDescription + "</div>");
                                 $("#" + data[i].name + "Info").hide();
                             }
                         }
@@ -40,14 +40,14 @@ function seedBlankSelects(selectID, fieldType, info)
                         {
                             for(var i = 0; i < data.length; i++)
                             {
-                                $(selectID).append("<option value='" + data[i].demoName + "'>" + data[i].demoName + "</option>");
+                                $(selectID).append("<option value='" + data[i].demoId + "'>" + data[i].demoName + "</option>");
                             }
                         }
                         else
                         {
                             for(var i = 0; i < data.length; i++)
                             {
-                                $(selectID).append("<option value='" + data[i].name + "'>" + data[i].name + "</option>");
+                                $(selectID).append("<option value='" + data[i].genreId + "'>" + data[i].genreName + "</option>");
                             }
                         }
                     }
@@ -133,16 +133,44 @@ function docReady()
                     
                 });
             }
+            else if(current == $("#userLink").attr('href'))
+            {
+                $("#adminLink").addClass("active");
+                $("#userLink").addClass("active");
+            }
             else if(current == $("#addLink").attr('href'))
             {
                 $("#adminLink").addClass("active");
                 $("#addLink").addClass("active");
-            }/*
-            else if(current == $("#aboutLink").attr('href'))
-            {
-                $("#about").addClass("active");
+                
+                seedAddSelects();
+                
+                $("#type").change( function(){
+                    
+                    $("#add").children().hide();
+                    
+                    if($("#type").val() != "Select One")
+                    {
+                        $("#" + $("#type").val()).show();
+                    }
+                    
+                    
+                });
             }
-            */
+            else if(current == $("#updateLink").attr('href'))
+            {
+                $("#adminLink").addClass("active");
+                $("#updateLink").addClass("active");
+                
+                seedUpdate();
+            }
+            else if(current == $("#deleteLink").attr('href'))
+            {
+                $("#adminLink").addClass("active");
+                $("#deleteLink").addClass("active");
+                
+                seedDelete();
+            }
             
             
             //for modal showing
@@ -195,4 +223,332 @@ function logIn()
     }
     
     return result;
+}
+function seedAddSelects()
+{
+    var x = document.getElementsByClassName("demo");
+    var y = document.getElementsByClassName("genre");
+    var z = document.getElementsByClassName("author");
+    
+    $.ajax({//demographics
+            
+        type: "GET",
+        url: "APIs/catalogAPI.php",
+        dataType: "JSON",
+        data: { "method": "demo" },
+        success: function(data,status) {
+            
+            var a = "";
+        
+            for(var i = 0; i < data.length; i++)
+            {
+                a += "<option value='" + data[i].demoId + "'>" + data[i].demoName + "</option>";
+            }
+            
+            for(var i = 0; i < x.length; i++)
+            {
+                x[i].innerHTML = a;
+            }
+                    
+        },
+        complete: function(data,status) { //optional, used for debugging purposes
+        //alert(status);
+        }
+        
+    });//ajax
+    
+    $.ajax({//genres
+            
+        type: "GET",
+        url: "APIs/catalogAPI.php",
+        dataType: "JSON",
+        data: { "method": "genre" },
+        success: function(data,status) {
+            
+            var a = "<option value='null'>Select One</option>";
+        
+            for(var i = 0; i < data.length; i++)
+            {
+                a += "<option value='" + data[i].genreId + "'>" + data[i].genreName + "</option>";
+            }
+            
+            for(var i = 0; i < y.length; i++)
+            {
+                y[i].innerHTML = a;
+            }
+                    
+        },
+        complete: function(data,status) { //optional, used for debugging purposes
+        //alert(status);
+        }
+        
+    });//ajax
+    
+    $.ajax({//authors
+            
+        type: "GET",
+        url: "APIs/catalogAPI.php",
+        dataType: "JSON",
+        data: { "method": "author" },
+        success: function(data,status) {
+            
+            var a = "<option value='null'>Select One</option>";
+        
+            for(var i = 0; i < data.length; i++)
+            {
+                a += "<option value='" + data[i].authorId + "'>" + data[i].firstName + " " + data[i].lastName + "</option>";
+            }
+            
+            for(var i = 0; i < z.length; i++)
+            {
+                z[i].innerHTML = a;
+            }
+                    
+        },
+        complete: function(data,status) { //optional, used for debugging purposes
+        //alert(status);
+        }
+        
+    });//ajax
+}
+function addAuthor()
+{
+    var x = document.getElementById("authorForm").elements;
+    
+    var formSub = {"method": "addAuthor"};
+    
+    for(var i = 0; i < x.length - 1; i++)
+    {
+        formSub[x[i].name] = x[i].value;
+    }
+    
+    $.ajax({//authors
+            
+        type: "GET",
+        url: "APIs/catalogAPI.php",
+        dataType: "JSON",
+        data: formSub,
+        success: function(data,status) {
+            
+            alert("Successfully Added")
+            
+            var current = window.location.href.split('/').pop();
+            current = current.split('#')[0];
+            current = current.split('?')[0];
+            
+            window.location.href = current;
+                    
+        },
+        complete: function(data,status) { //optional, used for debugging purposes
+        console.log(data);
+        alert(status);
+        }
+        
+    });//ajax
+    
+    return false;
+}
+function seedUpdate()
+{
+    var tr = "<tr>\
+                <form method='get' id='authorForm' onsubmit=\"return updateAuthor('authorForm')\"></form>\
+                <td>\
+                    <strong>First Name</strong><br />\
+                    <input type='input' name='firstName' form='authorForm'></input>\
+                </td>\
+                <td>\
+                    <strong>Last Name</strong><br />\
+                    <input type='input' name='lastName' form='authorForm'></input>\
+                </td>\
+                <td>\
+                    <strong>Gender</strong><br />\
+                    <select name='gender' form='authorForm'>\
+                        <option value='M'>Male</option>\
+                        <option value='F'>Female</option>\
+                    </select>\
+                </td>\
+                <td>\
+                    <strong>Date of Birth</strong><br />\
+                    <input type='date' name='birth' pattern='[0-9]{4}-[0-9]{2}-[0-9]{2}' value='' form='authorForm'/>\
+                </td>\
+                <td>\
+                    <strong>Bio</strong><br />\
+                    <input type='text' name='bio' form='authorForm'/>\
+                </td>\
+                <td>\
+                    <strong>Author Image</strong><br />\
+                    <input type='text' placeholder='http://www.example.com' name='authorImage' form='authorForm'/>\
+                </td>\
+                <td>\
+                    <br />\
+                    <input type='hidden' value='' name='authorId' form='authorForm' />\
+                    <input class='btn btn-primary' type='submit' value='Update' form='authorForm'/>\
+                </td>\
+            </tr>";
+    var formSub = {"method": "getEverything"};
+    
+    $.ajax({//authors
+            
+        type: "GET",
+        url: "APIs/catalogAPI.php",
+        dataType: "JSON",
+        data: formSub,
+        success: function(data,status) {
+            
+            for(var y = 0; y < data[3].length; y++)
+            {
+                $("#authorTable").append(tr.split('authorForm').join(('authorForm' + y)));
+                var x = document.getElementById("authorForm" + y).elements;
+                for(var i = 0; i < x.length - 1; i++)
+                {
+                    x[i].value = data[3][y][x[i].name];
+                }
+            }
+                    
+        },
+        complete: function(data,status) { //optional, used for debugging purposes
+        //alert(status);
+        }
+        
+    });//ajax
+}
+function seedDelete()
+{
+    var tr = "<tr id=''>\
+                <td>\
+                    <strong>First Name</strong><br />\
+                    <span class='authorInfo' id='firstName'></span>\
+                </td>\
+                <td>\
+                    <strong>Last Name</strong><br />\
+                    <span class='authorInfo' id='lastName' form='authorForm'></span>\
+                </td>\
+                <td>\
+                    <strong>Gender</strong><br />\
+                    <span class='authorInfo' id='gender' form='authorForm'></span>\
+                </td>\
+                <td>\
+                    <strong>Date of Birth</strong><br />\
+                    <span class='authorInfo' id='birth' value='' form='authorForm'></span>\
+                </td>\
+                <td>\
+                    <strong>Bio</strong><br />\
+                    <span class='authorInfo' id='bio' form='authorForm'></span>\
+                </td>\
+                <td>\
+                    <strong>Author Image</strong><br />\
+                    <span class='authorInfo' id='authorImage' form='authorForm'></span>\
+                </td>\
+                <td>\
+                    <br />\
+                    <form method='get' id='authorForm' onsubmit=\"return deleteAuthor('authorForm')\"></form>\
+                    <input type='hidden' value='' name='authorId' form='authorForm' />\
+                    <input class='btn btn-primary' type='submit' value='Delete' form='authorForm'/>\
+                </td>\
+            </tr>";
+    var formSub = {"method": "getEverything"};
+    
+    $.ajax({//authors
+            
+        type: "GET",
+        url: "APIs/catalogAPI.php",
+        dataType: "JSON",
+        data: formSub,
+        success: function(data,status) {
+            
+            for(var y = 0; y < data[3].length; y++)
+            {
+                $("#authorTable").append((tr.split('authorForm').join(('authorForm' + y)).split("id=''").join("id='rowNumber" + y + "'")));
+                var x = document.getElementById("authorForm" + y).elements;
+                var z = document.getElementById("rowNumber" + y).getElementsByTagName('span');
+                for(var i = 0; i < x.length - 1; i++)
+                {
+                    x[i].value = data[3][y][x[i].name];
+                }
+                for(var i = 0; i < z.length; i++)
+                {
+                    z[i].innerHTML = data[3][y][z[i].id];
+                }
+            }
+                    
+        },
+        complete: function(data,status) { //optional, used for debugging purposes
+        //alert(status);
+        }
+        
+    });//ajax
+}
+function updateAuthor(selection)
+{
+    var x = document.getElementById(selection).elements;
+    
+    var formSub = {"method": "updateAuthor"};
+    
+    for(var i = 0; i < x.length - 1; i++)
+    {
+        formSub[x[i].name] = x[i].value;
+    }
+    
+    $.ajax({//authors
+            
+        type: "GET",
+        url: "APIs/catalogAPI.php",
+        dataType: "JSON",
+        data: formSub,
+        success: function(data,status) {
+            
+            alert("Successfully Updated")
+            
+            var current = window.location.href.split('/').pop();
+            current = current.split('#')[0];
+            current = current.split('?')[0];
+            
+            window.location.href = current;
+                    
+        },
+        complete: function(data,status) { //optional, used for debugging purposes
+        //alert(data);
+        //alert(status);
+        }
+        
+    });//ajax
+    
+    return false;
+}
+function deleteAuthor(selection)
+{
+    var x = document.getElementById(selection).elements;
+    
+    var formSub = {"method": "deleteAuthor"};
+    
+    for(var i = 0; i < x.length - 1; i++)
+    {
+        formSub[x[i].name] = x[i].value;
+    }
+    
+    $.ajax({//authors
+            
+        type: "GET",
+        url: "APIs/catalogAPI.php",
+        dataType: "JSON",
+        data: formSub,
+        success: function(data,status) {
+            
+            alert("Successfully Deleted")
+            
+            var current = window.location.href.split('/').pop();
+            current = current.split('#')[0];
+            current = current.split('?')[0];
+            
+            window.location.href = current;
+                    
+        },
+        complete: function(data,status) { //optional, used for debugging purposes
+        //alert(data);
+        //alert(status);
+        }
+        
+    });//ajax
+    
+    return false;
 }
