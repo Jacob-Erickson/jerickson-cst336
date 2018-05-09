@@ -257,3 +257,9 @@ Stack trace:
 #1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(200): getCodeResults('SELECT *?      ...', Object(PDO))
 #2 {main}
   thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 31
+[09-May-2018 19:58:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dfbadbfzdfb' in 'where clause'' in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(31): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php(200): getCodeResults('SELECT *?      ...', Object(PDO))
+#2 {main}
+  thrown in /home/ubuntu/workspace/jerickson-cst336/Projects/Final_Project/APIs/catalogAPI.php on line 31

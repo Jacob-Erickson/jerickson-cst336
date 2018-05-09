@@ -556,78 +556,86 @@ function filterCatalog()
         data: formSub,
         success: function(data,status) {
             
-            $("#fullCatalog").html("");
-            
-            var htmlstr = "<table></tr>";
-            var i = 0;
-            for(var i = 0; i < data[0].length; i++)
+            if(data[4])
             {
-                htmlstr += "<tr>";
-                htmlstr += "<td class='listing left' style='width: 180px;'><img src='" + data[0][i]['itemImage'] + "' style='display: block; width: 180px; height: auto;'/></td>";
-                htmlstr += "<td class='listing'><span style='margin-left: 2%;'><strong>Title: </strong><br /><br />" + data[0][i].title + "</td>";
-                htmlstr += "<td class='listing'><span><strong>Author: </strong><br /><br />" + data[0][i].firstName + " " + data[0][i].lastName + "</td>";
-                htmlstr += "<td class='listing' style='overflow: scroll;'><span class='description'><strong>Description: </strong><br /><br />" + data[0][i].description + "</span></td>";
-                htmlstr += "<td class='listing'><span><strong>Price: </strong><br /><br />$" + data[0][i].price + "</td>";
+                $("#fullCatalog").html("");
                 
-                
-                htmlstr += "<td class='listing'><span><strong>Demographic: </strong><br /><br />" + data[0][i].demoName + "</td>";
-                
-                
-                htmlstr += "<td class='listing'><span><strong>Genres: </strong><br /><br />" + data[2][data[0][i].genre_1].genreName + "<br />" + data[2][data[0][i].genre_2].genreName + "<br />" + data[2][data[0][i].genre_3].genreName + "<br />" + "</td>";
-                
-                
-                htmlstr += "<td class='listing right' style='width: 10%;'><form onsubmit='return addCartItem('" + data[0][i].title.split(' ').join('+') + "')'>";
-                htmlstr += "<input type='hidden' name='item' value='" + data[0][i].title + "' id='" + data[0][i].title.split(' ').join('+') + "' />";
-                htmlstr += "<input id='addCart" + data[0][i].title.split(' ').join('+') + "' class='btn' type='submit' value='Add to Cart' /></form>";
-                htmlstr += "</tr>";
-            }
-            
-            htmlstr += "</table>";
-            
-            $("#fullCatalog").append(htmlstr);
-            
-            var alpha = "---";
-            var all = true;
-            
-            for(var i = 0; i < x.length - 1; i++)
-            {
-                if(x[i].value != "")
+                var htmlstr = "<table></tr>";
+                var i = 0;
+                for(var i = 0; i < data[0].length; i++)
                 {
-                    all = false;
-                    if(x[i].name == "demographic")
+                    htmlstr += "<tr>";
+                    htmlstr += "<td class='listing left' style='width: 180px;'><img src='" + data[0][i]['itemImage'] + "' style='display: block; width: 180px; height: auto;'/></td>";
+                    htmlstr += "<td class='listing'><span style='margin-left: 2%;'><strong>Title: </strong><br /><br />" + data[0][i].title + "</td>";
+                    htmlstr += "<td class='listing'><span><strong>Author: </strong><br /><br />" + data[0][i].firstName + " " + data[0][i].lastName + "</td>";
+                    htmlstr += "<td class='listing' style='overflow: scroll;'><span class='description'><strong>Description: </strong><br /><br />" + data[0][i].description + "</span></td>";
+                    htmlstr += "<td class='listing'><span><strong>Price: </strong><br /><br />$" + data[0][i].price + "</td>";
+                    
+                    
+                    htmlstr += "<td class='listing'><span><strong>Demographic: </strong><br /><br />" + data[0][i].demoName + "</td>";
+                    
+                    
+                    htmlstr += "<td class='listing'><span><strong>Genres: </strong><br /><br />" + data[2][data[0][i].genre_1].genreName + "<br />" + data[2][data[0][i].genre_2].genreName + "<br />" + data[2][data[0][i].genre_3].genreName + "<br />" + "</td>";
+                    
+                    
+                    htmlstr += "<td class='listing right' style='width: 10%;'><form onsubmit='return addCartItem('" + data[0][i].title.split(' ').join('+') + "')'>";
+                    htmlstr += "<input type='hidden' name='item' value='" + data[0][i].title + "' id='" + data[0][i].title.split(' ').join('+') + "' />";
+                    htmlstr += "<input id='addCart" + data[0][i].title.split(' ').join('+') + "' class='btn' type='submit' value='Add to Cart' /></form>";
+                    htmlstr += "</tr>";
+                }
+                
+                htmlstr += "</table>";
+                
+                $("#fullCatalog").append(htmlstr);
+                
+                var alpha = "---";
+                var all = true;
+                
+                for(var i = 0; i < x.length - 1; i++)
+                {
+                    if(x[i].value != "")
                     {
-                        for(var beta = 0; beta < data[1].length; beta++)
+                        all = false;
+                        if(x[i].name == "demographic")
                         {
-                            if(data[1][beta].demoId == x[i].value)
+                            for(var beta = 0; beta < data[1].length; beta++)
                             {
-                                alpha += x[i].name + ": " + data[1][beta].demoName + "---";
+                                if(data[1][beta].demoId == x[i].value)
+                                {
+                                    alpha += x[i].name + ": " + data[1][beta].demoName + "---";
+                                }
                             }
                         }
-                    }
-                    else if(x[i].name == "genre")
-                    {
-                        for(var beta = 0; beta < data[2].length; beta++)
+                        else if(x[i].name == "genre")
                         {
-                            if(data[2][beta].genreId == x[i].value)
+                            for(var beta = 0; beta < data[2].length; beta++)
                             {
-                                alpha += x[i].name + ": " + data[2][beta].genreName + "---";
+                                if(data[2][beta].genreId == x[i].value)
+                                {
+                                    alpha += x[i].name + ": " + data[2][beta].genreName + "---";
+                                }
                             }
                         }
-                    }
-                    else
-                    {
-                        alpha += x[i].name + ": " + x[i].value + "---";
+                        else
+                        {
+                            alpha += x[i].name + ": " + x[i].value + "---";
+                        }
                     }
                 }
-            }
-            
-            if(all)
-            {
-                document.getElementById("label").innerHTML = "No Criteria (Get Everything)";
+                
+                if(all)
+                {
+                    document.getElementById("label").innerHTML = "No Criteria (Get Everything)";
+                }
+                else
+                {
+                    document.getElementById("label").innerHTML = alpha;
+                }
             }
             else
             {
-                document.getElementById("label").innerHTML = alpha;
+                document.getElementById("label").innerHTML = "No Results Matching the Criteria were Found";
+                $("#fullCatalog").html("");
             }
                 
         },

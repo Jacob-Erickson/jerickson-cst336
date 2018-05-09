@@ -279,6 +279,14 @@
     }
     else
     {
+        if(count($result[0]) == 0)
+        {
+            $result[4] = false;
+        }
+        else
+        {
+            $result[4] = true;
+        }
         echo json_encode($result);
     }
 

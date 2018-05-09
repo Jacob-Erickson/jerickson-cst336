@@ -34,11 +34,13 @@
             hello
         </div>
         
-        <hr />
+        <br />
         <br />
         
         <input type="submit" value="Filter"/>
     </form>
+    
+    <hr />
     
     <h1>Catalog Results For:</h1>
     

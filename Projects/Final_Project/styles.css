@@ -66,14 +66,14 @@ body
 }
 form div
 {
-    display: none;
+    /*display: none;*/
 }
 /*                                                                End of index.php css
 ***************************************************************************************
                                                             Beginning of add.php css*/
 #add div
 {
-    display: none;
+    /*display: none;*/
 }
 #add table
 {
@@ -113,6 +113,118 @@ form div
     padding: 1%;
 }
 #add td span
+{
+    padding: 1%;
+}
+#Author, #Product, #Genre, #Demographic
+{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid black;
+    overflow: scroll;
+}
+/*                                                                End of index.php css
+***************************************************************************************
+                                                            Beginning of update.php css*/
+#update div
+{
+    /*display: none;*/
+}
+#update table
+{
+    text-align: left;
+    width: 90%;
+    margin-left: 5%;
+    border-spacing: 0 2em;
+    border-collapse: separate;
+}
+#update table tr
+{
+    margin-bottom: 10%;
+    border-spacing: 0 8em;
+    border-collapse: separate;
+    border: 1px solid black;
+}
+#update table tr td
+{
+    border-spacing: 0 2em;
+    text-align: center;
+}
+#update .left
+{
+    border-left: 1px solid black;
+    border-radius: 15px 0px 0px 15px;
+}
+#update .right
+{
+    border-right: 1px solid black;
+    border-radius: 0px 15px 15px 0px;
+}
+
+#update .listing
+{
+    background-color: rgba(192, 192, 192, 0.5);
+    border-right: ridge;
+    padding: 1%;
+}
+#update td span
+{
+    padding: 1%;
+}
+#Author, #Product, #Genre, #Demographic
+{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid black;
+    overflow: scroll;
+}
+/*                                                                End of index.php css
+***************************************************************************************
+                                                            Beginning of update.php css*/
+#delete div
+{
+    /*display: none;*/
+}
+#delete table
+{
+    text-align: left;
+    width: 90%;
+    margin-left: 5%;
+    border-spacing: 0 2em;
+    border-collapse: separate;
+}
+#delete table tr
+{
+    margin-bottom: 10%;
+    border-spacing: 0 8em;
+    border-collapse: separate;
+    border: 1px solid black;
+}
+#delete table tr td
+{
+    border-spacing: 0 2em;
+    text-align: center;
+}
+#delete .left
+{
+    border-left: 1px solid black;
+    border-radius: 15px 0px 0px 15px;
+}
+#delete .right
+{
+    border-right: 1px solid black;
+    border-radius: 0px 15px 15px 0px;
+}
+
+#delete .listing
+{
+    background-color: rgba(192, 192, 192, 0.5);
+    border-right: ridge;
+    padding: 1%;
+}
+#delete td span
 {
     padding: 1%;
 }

@@ -22,7 +22,7 @@
 ?>
       <h1>Update Items in Database</h1>
       <br />
-      <h5>
+      <h5><!--
         Update item in: 
         <select name='type' id='type'>
             <option>Select One</option>
@@ -30,11 +30,11 @@
             <option>Demographic</option>
             <option>Product</option>
             <option>Author</option>
-        </select>
+        </select>-->
       </h5>
     </div>
     
-    <main id="update">
+    <main id="delete">
         
     <br />
     
@@ -50,7 +50,7 @@
     
     <br />
     <br />
-    
+    <!--
     <div id="Product">
         <form method='GET' id='productForm'></form>
         <table>
@@ -172,7 +172,7 @@
     </div>
     <div id="failure">
         <h1>Failure</h1>
-    </div>
+    </div>-->
     </main>
 
 <?php

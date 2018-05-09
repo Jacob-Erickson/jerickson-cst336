@@ -24,7 +24,7 @@
     </div>
     
     <br />
-    
+    <!--
     <form method="post">
         <input type="hidden" name="logger" value="false" />
         <input class="btn btn-primary" type="submit" value="Log Out"/>
@@ -48,7 +48,7 @@
         <span id="error" style="color: red;"></span>
         <br />
     </form>
-
+    -->
 <?php
 
     }
