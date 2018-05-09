@@ -40,6 +40,15 @@
         $results->execute();
     }
     
+    function addend(&$code)
+    {
+        $compare = substr($code, (strlen($code) - 5), strlen($code));
+        if($compare != "AND ")
+        {
+            $code .= " AND ";
+        }
+    }
+    
     $conn = getDatabaseConnection("mangaMart");
     
     $sql = "";
@@ -74,21 +83,120 @@
                 $result = getCodeResults($sql, $conn);
                 break;
             }
-        case 'all':
-            {
-                $sql = "SELECT *
-                        FROM catalog
-                        NATURAL JOIN demographics
-                        NATURAL JOIN authors;";
-                $result = getCodeResults($sql, $conn);
-                break;
-            }
         case 'getEverything':
             {
                 $sql = "SELECT *
                         FROM catalog
                         NATURAL JOIN demographics
                         NATURAL JOIN authors;";
+                $records = getCodeResults($sql, $conn);
+                array_push($result, $records);
+                
+                $sql = "SELECT * FROM demographics;";
+                $records = getCodeResults($sql, $conn);
+                array_push($result, $records);
+                
+                $sql = "SELECT * FROM genres;";
+                $records = getCodeResults($sql, $conn);
+                array_push($result, $records);
+                
+                $sql = "SELECT * FROM authors;";
+                $records = getCodeResults($sql, $conn);
+                array_push($result, $records);
+                break;
+            }
+        case 'filterCatalog':
+            {
+                $sql = "SELECT *
+                        FROM catalog
+                        NATURAL JOIN demographics
+                        NATURAL JOIN authors
+                        WHERE ";
+                 
+                $notFirst = false;
+                 
+                if($_GET['author'] != "")
+                {
+                    if($notFirst)
+                    {
+                        addend($sql);
+                    }
+                    else
+                    {
+                        $notFirst = true;
+                    }
+                    $sql .= "(firstName LIKE \"%" . $_GET['author'] . "%\" OR ";
+                    $sql .= "lastName LIKE \"%" . $_GET['author'] . "%\")";
+                }
+                
+                if($_GET['demographic'] != "")
+                {
+                    if($notFirst)
+                    {
+                        addend($sql);
+                    }
+                    else
+                    {
+                        $notFirst = true;
+                    }
+                    $sql .= "demoId = " . $_GET['demographic'];
+                }
+                
+                if($_GET['genre'] != "")
+                {
+                    if($notFirst)
+                    {
+                        addend($sql);
+                    }
+                    else
+                    {
+                        $notFirst = true;
+                    }
+                    $sql .= "(genre_1  = " . $_GET['genre'];
+                    $sql .= " OR genre_2  = " . $_GET['genre'];
+                    $sql .= " OR genre_3  = " . $_GET['genre'] . ")";
+                }
+                
+                if($_GET['maximum'] != "")
+                {
+                    if($notFirst)
+                    {
+                        addend($sql);
+                    }
+                    else
+                    {
+                        $notFirst = true;
+                    }
+                    $sql .= "price ";
+                    if($_GET['minimum'] != "")
+                    {
+                        $sql .= "BETWEEN " . $_GET['minimum'] . " AND " . $_GET['maximum'];
+                    }
+                    else
+                    {
+                        $sql .= "<= " . $_GET['maximum'];
+                    }
+                }
+                else if($_GET['minimum'] != "")
+                {
+                    if($notFirst)
+                    {
+                        addend($sql);
+                    }
+                    else
+                    {
+                        $notFirst = true;
+                    }
+                    $sql .= "price >= " . $_GET['minimum'];
+                }
+                
+                if(!$notFirst)
+                {
+                    $sql .= 1;
+                }
+                
+                $sql .= ";";
+                        
                 $records = getCodeResults($sql, $conn);
                 array_push($result, $records);
                 

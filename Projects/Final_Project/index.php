@@ -13,28 +13,41 @@
 
 <main id="index">
     
-    <form>
-        <span>Minimum Price</span><input type="text" name="minimum"/>
-        <span>Maximum Price</span><input type="text" name="maximum"/>
+    <form onsubmit="return filterCatalog()" id="filter">
+        Minimum Price $<input type="number" step=0.01 name="minimum"/>
         <br />
-        <span>Author</span><input type="text" name="author"/>
         <br />
-        <span>Demographic</span><select id="demographics" name="demographic"></select>
+        Maximum Price $<input type="number" step=0.01 name="maximum"/>
+        <br />
+        <br />
+        Author: <input type="text" placeholder="first or last name" name="author"/>
+        <br />
+        <br />
+        Demographic: <select id="demographics" name="demographic"></select>
         <div id="demoInfo" style="border-style: solid; border-color: black;">
             hello
         </div>
-        <span>Genre</span><select id="genre" name="genre"></select>
+        <br />
+        <br />
+        Genre: <select id="genre" name="genre"></select>
         <div id="genreInfo" style="border-style: solid; border-color: black;">
             hello
         </div>
         
+        <hr />
+        <br />
+        
         <input type="submit" value="Filter"/>
     </form>
-
-
-    <h1>Catalog</h1>
+    
+    <h1>Catalog Results For:</h1>
+    
+    <h2 id='label'>
+        No Criteria (Get Everything)
+    </h2>
     
     <div id="fullCatalog"></div>
+    
 </main>
 
 <?php

@@ -22,6 +22,9 @@ body
     margin-right: 5%;
     border-spacing: 0 2em;
     border-collapse: separate;
+    text-align: center;
+    overflow: scroll;
+    table-layout: fixed;
 }
 #index table tr
 {
@@ -29,12 +32,15 @@ body
     border-spacing: 0 8em;
     border-collapse: separate;
     border: 1px solid black;
+    height: 100px !important;
 }
-#index table tr td
+#index td
 {
     border-spacing: 0 2em;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    width: 13%;
+    overflow: scroll;
 }
 #index .left
 {
@@ -50,12 +56,17 @@ body
 #index .listing
 {
     background-color: rgba(192, 192, 192, 0.5);
-    border-right: ridge;
     padding: 1%;
 }
-#index td span
+#index .description
 {
-    padding: 1%;
+    display: block;
+    overflow: scroll;
+    text-overflow: ellipsis;
+}
+form div
+{
+    display: none;
 }
 /*                                                                End of index.php css
 ***************************************************************************************
