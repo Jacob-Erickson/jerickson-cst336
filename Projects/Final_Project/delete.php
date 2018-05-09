@@ -20,7 +20,7 @@
     {
 
 ?>
-      <h1>Update Items in Database</h1>
+      <h1>Delete Items from Database</h1>
       <br />
       <h5><!--
         Update item in: 
